@@ -211,51 +211,59 @@
     <div class="place-main">
         <div class="place-main-area">
             <div class="place-main-detail">
-                <article class="">
-                    <h2 class="">配達エリア</h2>
-                    <h3 class="">(静岡県全域)</h3>
-                    <div class="">
-                        <dl>
-                            <dt>東部エリア</dt>
-                            <dd>富士市、富士宮市、沼津市、三島市、裾野市、御殿場市、熱海市、伊豆の国市、伊豆市、清水町、長泉市、函南町</dd>
+                <article class="article-1">
+                    <h2 class="ar1-text">配達エリア <span class="ar1-small-text">(静岡県全域)</span></h2>
+                    <div class="place-detail">
+                        <dl class="place-dl">
+                            <dt class="place-dt">東部エリア</dt>
+                            <dd class="place-dd">富士市、富士宮市、沼津市、三島市、裾野市、御殿場市、熱海市、伊豆の国市、伊豆市、清水町、長泉市、函南町</dd>
                         </dl>
-                        <dl>
-                            <dt>中部エリア</dt>
-                            <dd>静岡市、焼津市、藤枝市、島田市、吉田町、牧之原市</dd>
+                        <dl class="place-dl">
+                            <dt class="place-dt">中部エリア</dt>
+                            <dd class="place-dd">静岡市、焼津市、藤枝市、島田市、吉田町、牧之原市</dd>
                         </dl>
-                        <dl>
-                            <dt>西部エリア</dt>
-                            <dd>浜松市、磐田市、袋井市、掛川市、菊川市、森町</dd>
-                        </dl>
-                    </div>
-                    <div class="other-area">
-                        <p class="other-area-text">その他のエリアも相談ください。</p>
-                    </div>
-                </article>
-                <article class="">
-                    <h2 class="">配達内容</h2>
-                    <div class="">
-                        <dl>
-                            <dt>おにぎり</dt>
-                            <dd>おにぎり、梅おにぎり、鮭おにぎり、昆布おにぎり、明太子おにぎり、いくらおにぎり、ツナマヨおにぎり</dd>
-                        </dl>
-                        <dl>
-                            <dt>惣菜</dt>
-                            <dd>卵焼き、唐揚げ、牛肉コロッケ、メンチカツ、生姜焼き</dd>
-                        </dl>
-                        <dl>
-                            <dt>漬物</dt>
-                            <dd>梅干し、たくあん、白菜の塩漬け、大根のぬか漬け、かぶの甘酢漬け</dd>
-                        </dl>
-                        <dl>
-                            <dt>そのほか</dt>
-                            <dd>具沢山おにぎり、プリン</dd>
+                        <dl class="place-dl">
+                            <dt class="place-dt">西部エリア</dt>
+                            <dd class="place-dd">浜松市、磐田市、袋井市、掛川市、菊川市、森町</dd>
                         </dl>
                     </div>
                     <div class="other-area">
                         <p class="other-area-text">その他のエリアも相談ください。</p>
                     </div>
                 </article>
+                <article class="delivery-main">
+                    <h2 class="ar2-text">配達内容</h2>
+                    <div class="article-2">
+                        <dl class="delivery-dl">
+                            <dt class="delivery-dt">おにぎり</dt>
+                            <dd class="delivery-dd">おにぎり、梅おにぎり、鮭おにぎり、昆布おにぎり、明太子おにぎり、いくらおにぎり、ツナマヨおにぎり</dd>
+                        </dl>
+                        <dl class="delivery-dl">
+                            <dt class="delivery-dt">惣菜</dt>
+                            <dd class="delivery-dd">卵焼き、唐揚げ、牛肉コロッケ、メンチカツ、生姜焼き</dd>
+                        </dl>
+                        <dl class="delivery-dl">
+                            <dt class="delivery-dt">漬物</dt>
+                            <dd class="delivery-dd">梅干し、たくあん、白菜の塩漬け、大根のぬか漬け、かぶの甘酢漬け</dd>
+                        </dl>
+                        <dl class="delivery-dl">
+                            <dt class="delivery-dt">そのほか</dt>
+                            <dd class="delivery-dd">具沢山おにぎり、プリン</dd>
+                        </dl>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    <!-- お問い合わせボタン -->
+    <div class="form-main">
+        <div class="form-btn-area">
+            <div class="btn-add">
+                <a href="#" class="addBtn-Form">
+                    <div class="addBtn-Form-text">
+                        <h1 href="#" class="add-btn-text">お問い合わせ</h1>
+                    </div>
+                </a>
             </div>
         </div>
     </div>

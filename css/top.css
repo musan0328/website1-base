@@ -596,13 +596,130 @@ header {
 }
 
 .more-btn-asns {
-    margin-top: 3.5rem;
+    margin-top: 6rem;
 }
+
+/* ACESS SNSエリア ここまで */
+
+
+/* 配達情報 */
+.place-main {
+    background-color: rgba(239, 242, 242, 1);
+    padding: 5rem 0;
+}
+
+.place-main-area {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.place-main-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.article-1 {
+    margin-right: 5rem;
+}
+
+.ar1-text, .ar2-text {
+    border-bottom: 1px rgba(0, 60, 51, 0.5) solid;
+    color: rgba(0, 60, 51, 1);
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.8rem;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding-bottom: 0.8rem;
+    margin-bottom: 2.5rem;
+}
+
+.ar1-small-text {
+    font-size: 1.4rem;
+}
+
+.place-dt, .delivery-dt {
+    color: rgba(0, 60, 51, 1);
+    font-size: 1.05rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.place-dl, .delivery-dl {
+    margin-bottom: 1.4rem;
+}
+
+.other-area {
+    border: 1px rgba(0, 60, 51, 0.5) solid;
+    padding: 1.5rem 0;
+}
+
+.other-area-text {
+    text-align: center;
+    color: rgba(0, 60, 51, 1);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* 配達情報 ここまで */
+
+
+/* お問い合わせボタン */
+
+.form-main {
+    margin: 5rem 0;
+}
+
+.form-btn-area {
+    text-align: center;
+}
+
+.addBtn-Form {
+    background: #eee;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 35rem;
+    height: 7rem;
+    padding: 2rem 2rem;
+    color: rgba(0, 60, 51, 1);
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+.addBtn-Form:hover {
+    opacity: 0.8;
+    transition: 1s;
+    background-color: rgba(0, 60, 51, 1);
+    color: #FFF
+}
+
+
+.add-btn-text:before {
+    background-image: url(../images/tell-icon.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    width: 3rem;
+}
+
+.add-btn-text {
+    font-size: 1.5rem;
+    letter-spacing: 0.1em;
+}
+
+/* お問い合わせボタン ここまで  */
+
+
 
 /* footer */
 .footer {
-    background-color: #EEE;
     padding: 2.8rem 0;
+    border-top: 1px rgba(217, 217, 217, 1) solid;
 }
 
 .footer-area {

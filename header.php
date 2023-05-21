@@ -48,7 +48,7 @@
                                 <span class="contact-icon"></span>
                                     <p class="contact-text">
                                         <span class="contact-text1">お問い合わせ</span>
-                                        <span class="contact-text1">面談予約</span>
+                                        <span class="contact-text1">予約</span>
                                     </p>
                             </div>
                         </a>
