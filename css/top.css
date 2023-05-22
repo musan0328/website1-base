@@ -174,8 +174,11 @@ header {
     position: relative;
     top: -4rem;
     left: 13rem;
-    /* object-fit: cover; */
     z-index: 150;
+}
+
+.main-imageandtext {
+    position: relative;
 }
 
 .main-text-viarea {
@@ -183,8 +186,8 @@ header {
     width: 18rem;
     height: 15rem;
     margin: 2rem 1rem;
-    position: relative;
-    top: -37rem;
+    position: absolute;
+    top: 0;
     left: 0;
     z-index: 200;
     box-shadow: 6px 0px 10px 0px rgba(0, 0, 0, 0.4);

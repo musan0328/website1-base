@@ -23,11 +23,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="top-image-sign-area">
-                    <div class="top-img-sign">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/onigiri_shop.png" alt="おにぎり屋" class="main-icon-shop">
-                    </div>
-                </div> -->
                 <div class="topAdb">
                     <div class="message-area">
                         <h2 class="topAdb-title">新鮮な美味しさをお届けする</h2>
