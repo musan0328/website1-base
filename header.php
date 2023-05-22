@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width"> -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/destyle.min.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/top.css">
     <title>Document</title>
@@ -39,6 +40,32 @@
                             </div>
                     </div>
                   </div>
+                </div>
+           </div>
+           <div class="inner-main-area-sp">
+               <button clas="humbuger">
+                    <span class="hamburger_bar"></span>
+                    <span class="hamburger_bar"></span>
+                    <span class="hamburger_bar"></span>
+               </button>
+               <nav class="nav-sp">
+                    <ul class="nav-list-sp">
+                        <li class="nav-item"><a href="">おにぎりや</a></li>
+                        <li class="nav-item"><a href="">こだわり</a></li>
+                        <li class="nav-item"><a href="">メニュー</a></li>
+                        <li class="nav-item"><a href="">新着情報</a></li>
+                        <li class="nav-item"><a href="">店舗情報</a></li>
+                    </ul>
+                </nav>
+                <div class="humbager-sns">
+                    <div class="hmb-snslist">
+                        <li class="sns-list">
+                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/insta.png" alt="インスタアイコン" class="insta-icon-sp"></a>
+                        </li>
+                        <li class="sns-list">
+                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter.png" alt="twitterアイコン" class="twitter-icon-sp"></a>
+                        </li>
+                    </div>
                 </div>
            </div>
            <div class="contact-main-area">
