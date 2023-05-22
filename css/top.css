@@ -364,11 +364,7 @@ header {
 
 /* ボタン ここまで */
 
-
-
-
 /* news */
-
 .topNewsArea {
     margin: 0 auto;
     padding: 3rem 0 8rem;
@@ -457,8 +453,6 @@ header {
 
 /* News ここまで */
 
-
-
 /* Menu */
 .menu-area-main {
     padding: 4rem 0 1rem 0;
@@ -512,9 +506,7 @@ header {
 
 /* Menu ここまで */
 
-
 /* 会社情報 */
-
 .company-area-main {
     margin: 5rem 0;
     position: relative;
@@ -626,7 +618,7 @@ header {
 }
 
 .more-btn-asns {
-    margin-top: 6rem;
+    margin-top: 3rem;
 }
 
 /* ACESS SNSエリア ここまで */
@@ -695,7 +687,6 @@ header {
 
 
 /* お問い合わせボタン */
-
 .form-main {
     margin: 5rem 0;
 }

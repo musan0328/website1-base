@@ -7,7 +7,8 @@
     <!-- <meta name="viewport" content="width=device-width"> -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/destyle.min.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/top.css">
-    <title>Document</title>
+    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/onigiri_tenmusu.png">
+    <title>おにぎりや</title>
 </head>
 <body>
     <header>
