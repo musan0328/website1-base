@@ -4,26 +4,30 @@
     <div class="top-main">
         <div class="top-main-area">
             <div class="main-visual">
-                <div class="main-text-viarea">
-                    <div class="main-text-area">
-                        <h1>
-                            <span class="topMvText">新鮮で</span>
-                            <span class="topMvText">真心込めた</span>
-                            <span class="topMvText">お米屋です</span>
-                        </h1>
+                <div class="main-imageandtext">
+                    <div class="main-image-area">
+                        <div class="main-image-dp">
+                            <!-- slickで画像スライドする -->
+                            <div class="image-topdp">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/tanbo.png" alt="メインビジュアル配置" class="main-visual-top">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-text-viarea">
+                        <div class="main-text-area">
+                            <h1 class="topMvArea">
+                                <span class="topMvText">新鮮と</span> <br>
+                                <span class="topMvText">真心の</span> <br>
+                                <span class="topMvText">お米屋</span> <br>
+                            </h1>
+                        </div>
                     </div>
                 </div>
-                <div class="top-image-sign-area">
+                <!-- <div class="top-image-sign-area">
                     <div class="top-img-sign">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/onigiri_shop.png" alt="おにぎり屋" class="main-icon-shop">
                     </div>
-                </div>
-                <div>
-                    <div>
-                        <!-- slickで画像スライドする -->
-                        <div><img src="<?php echo get_template_directory_uri(); ?>/images/tanbo.png" alt="メインビジュアル配置" class="main-visual-top"></div>
-                    </div>
-                </div>
+                </div> -->
                 <div class="topAdb">
                     <div class="message-area">
                         <h2 class="topAdb-title">新鮮な美味しさをお届けする</h2>
