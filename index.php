@@ -186,14 +186,14 @@
             <div class="access-sns-box">
                 <div class="access-main-top">
                     <h3 class="acsns-text">ACCESS</h3>
-                    <div class="access-top">
+                    <div class="map">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.095727279477!2d137.7212877932684!3d34.72798136324085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ade566e6d2ee7%3A0x87c7bf0495fa178!2z44CSNDMwLTA5MDYg6Z2Z5bKh55yM5rWc5p2-5biC5Lit5Yy65L2P5ZCJ77yR5LiB55uu77yR77yU!5e0!3m2!1sja!2sjp!4v1684651122970!5m2!1sja!2sjp" width="500" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
                 <div class="sns-main-top">
                     <h3 class="acsns-text">TWITTER</h3>
                     <div class="twitter-top">
-                    <a class="twitter-timeline" data-lang="ja" data-width="400" data-height="500" data-theme="light" href="https://twitter.com/yamamurata73235?ref_src=twsrc%5Etfw">Tweets by yamamurata73235</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+                        <a class="twitter-timeline" data-lang="ja" data-width="400" data-height="500" data-theme="light" href="https://twitter.com/yamamurata73235?ref_src=twsrc%5Etfw">Tweets by yamamurata73235</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
                     </div>
                 </div>
             </div>

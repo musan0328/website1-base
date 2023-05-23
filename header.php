@@ -13,8 +13,8 @@
 <body>
     <header>
        <nav id="gnav">
-           <div>
-               <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/onigiri_tenmusu.png" alt="ロゴ" class="logo-img"></a>
+           <div class="logo-area-top">
+               <a href="#" class="logo-area-maintop"><img src="<?php echo get_template_directory_uri(); ?>/images/onigiri_tenmusu.png" alt="ロゴ" class="logo-img"></a>
            </div>
            <div class="inner-main-area">
                 <div class="inner-area">
