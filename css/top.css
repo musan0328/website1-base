@@ -719,12 +719,14 @@ header {
 
 
 .add-btn-text::before {
-    background-image: url("../images/tell-icon.png");
+    background-image: url("../images/mail-form-icon.png");
     background-repeat: no-repeat;
     background-position: bottom;
+    content: "";
     display: inline-block;
-    position: absolute;
-    top: 50%;
+    vertical-align: middle;
+    /* position: absolute;
+    top: 50%; */
     width: 3rem;
     height: 3rem;
 }
