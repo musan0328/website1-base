@@ -620,23 +620,6 @@ header {
     margin-top: 3rem;
 }
 
-/* Google Mapを囲う要素 */
-/* .map {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-top: 75%;
-    /* 比率を4:3に固定 */
-/* }
-
-/* Google Mapのiframe */
-/* .map iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-} */
 
 /* ACESS SNSエリア ここまで */
 
@@ -989,4 +972,251 @@ header {
 }
 
 
-@media screen and (max-width: 375px) {}
+
+@media screen and (max-width: 768px) {
+
+    .top-img {
+        width: 45vw;
+        margin-top: 0;
+        margin-left: 1rem;
+    }
+
+    .NewsGroup, .menu-area, .place-main-area {
+        max-width: 680px;
+        margin: 0 auto;
+    }
+
+    .message-area, .company-area {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .ar1-small-text {
+        font-size: 1.3rem;
+    }
+
+    .footer-menu-text {
+        padding: 0 1.2rem;
+    }
+}
+
+
+
+@media screen and (max-width: 375px) {
+
+    .hamburger_bar {
+        left: 3.5rem;
+    }
+
+    .main-text-viarea {
+        width: 9rem;
+        height: 8rem;
+        margin: 1rem 1rem;
+        position: absolute;
+        top: -2rem;
+        left: 0;
+    }
+
+    .topMvArea {
+        padding: 0;
+        padding-top: 1.2rem;
+        text-align: center;
+    }
+
+    .topMvText {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+
+    .image-topdp {
+        display: block;
+    }
+
+    .main-visual, .message-area {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .main-visual-top {
+        width: 100%;
+        height: 25rem;
+        left: 0;
+        top: 0;
+        object-fit: cover;
+    }
+
+    .Adb-text-image {
+        display: block;
+    }
+
+    .topAdb-title {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        line-height: 1.4em;
+    }
+
+    .topAbd-text {
+        letter-spacing: 0.05rem;
+    }
+
+    .topAdb-Conpany-detail {
+        display: block;
+    }
+
+    .NewsGroup {
+        display: block;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .com-text-imagearea {
+        display: block;
+    }
+
+    .place-main-detail {
+        display: block;
+    }
+
+    .top-img {
+        width: 100%;
+        margin-top: 1.5rem;
+        margin-left: 0;
+    }
+
+    .topAdbCompany {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+        margin-top: 5rem;
+    }
+
+    .topAdb-text-area {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    .Company-detail {
+        padding: 2rem;
+    }
+
+    .btn-desin {
+        width: 80%;
+        height: 4rem;
+    }
+
+    .NewsContent {
+        width: 100%;
+    }
+
+    .news-area {
+        display: block
+    }
+
+    .news-day {
+        width: 5rem;
+    }
+
+    .news-link:after {
+        width: 0.7rem;
+        height: 0.7rem;
+    }
+
+    .menu-area {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .menu-images {
+        margin-left: 1rem;
+    }
+
+    .company-area {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .company-detail-rogo {
+        text-align: center;
+    }
+
+    .top-access-sns-main {
+        padding-top: 0;
+        top: 0;
+        height: auto;
+    }
+
+    .com-image-main {
+        margin-top: -5rem;
+    }
+
+    .com-images {
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .top-access-sns-main {
+        background: transparent;
+    }
+
+    .access-sns-box {
+        display: block;
+    }
+
+    .place-main-detail {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .article-1 {
+        margin-right: 0;
+    }
+
+    .ar1-text, .ar2-text {
+        font-size: 1.25rem;
+    }
+
+    .ar1-small-text {
+        font-size: 1.0rem;
+    }
+
+    .place-main-area {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .place-dd {
+        line-height: 1.75;
+    }
+
+    .ar1-text, .ar2-text {
+        margin-top: 4rem;
+    }
+
+    .form-btn-area {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    .addBtn-Form {
+        width: auto;
+    }
+
+    .footer-menu {
+        padding: 0.5rem 0;
+    }
+
+    .footer-menu-list {
+        display: block;
+    }
+
+    .footer-menu-text {
+        text-align: center;
+        padding: 1rem;
+        border-bottom: 2px rgba(70, 126, 117, 1) solid;
+    }
+
+    .footer-menu-text:last-of-type {
+        border-bottom: none;
+    }
+}

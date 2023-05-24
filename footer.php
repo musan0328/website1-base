@@ -13,12 +13,12 @@
     <div class="footer-menu">
         <div class="footer-menu-detail">
             <ul class="footer-menu-list">
-                <li class="footer-menu-text">studio baseとは</li>
-                <li class="footer-menu-text">こだわり</li>
-                <li class="footer-menu-text">メニュー</li>
-                <li class="footer-menu-text">新着情報</li>
-                <li class="footer-menu-text">店舗情報</li>
-                <li class="footer-menu-text">お問い合わせ</li>
+                <li class="footer-menu-text"><a href="#" class="">studio baseとは</a></li>
+                <li class="footer-menu-text"><a href="#" class="">こだわり</a></li>
+                <li class="footer-menu-text"><a href="#" class="">メニュー</a></li>
+                <li class="footer-menu-text"><a href="#" class="">新着情報</a></li>
+                <li class="footer-menu-text"><a href="#" class="">店舗情報</a></li>
+                <li class="footer-menu-text"><a href="#" class="">お問い合わせ</a></li>
             </ul>
         </div>
     </div>
