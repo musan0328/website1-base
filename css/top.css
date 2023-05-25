@@ -280,8 +280,10 @@ header {
 }
 
 .Company-detail {
-    padding-top: 6rem;
+    padding-top: 4rem;
     padding-left: 2rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
 }
 
 .company_name {
@@ -581,7 +583,7 @@ header {
     position: relative;
     z-index: 1;
     background-color: rgba(0, 60, 51, 1);
-    padding-top: 6rem;
+    padding: 5rem 2rem;
 }
 
 .top-access-sns-area {
@@ -860,7 +862,7 @@ header {
         width: 100%;
         height: 0.2rem;
         position: absolute;
-        left: 4rem;
+        left: 8rem;
         background: #000;
         transition: top 0.24s, transform 0.24s, opacity 0.24s;
         border-radius: 5px;
@@ -975,6 +977,31 @@ header {
 
 
 
+
+@media screen and (max-width: 920px) {
+    .main-visual-top {
+        left: 9rem;
+    }
+
+    .NewsGroup {
+        max-width: 850px;
+    }
+
+    .menu-area {
+        max-width: 750px;
+    }
+
+    .company-area {
+        max-width: 850px;
+    }
+
+    .place-main-area {
+        max-width: 850px;
+    }
+}
+
+
+
 @media screen and (max-width: 768px) {
 
     .top-img {
@@ -1004,7 +1031,7 @@ header {
 
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 430px) {
 
     .hamburger_bar {
         left: 3.5rem;
@@ -1224,5 +1251,44 @@ header {
 
     .footer-menu-text:last-of-type {
         border-bottom: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .hamburger_bar {
+        left: 0;
+    }
+
+    .main-visual-top {
+        left: 6rem;
+    }
+
+    .message-area, .company-area {
+        max-width: 450px;
+    }
+
+    .addBtn-Form {
+        width: auto;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+
+    .main-visual, .message-area {
+        max-width: 320px;
+    }
+
+    .NewsGroup {
+        max-width: 320px;
+    }
+
+    .place-main-area {
+        max-width: 320px;
+    }
+
+    .form-btn-area {
+        max-width: 320px;
     }
 }
