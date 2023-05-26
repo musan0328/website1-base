@@ -388,7 +388,6 @@ header {
 
 .NewsContent {
     margin-top: 2rem;
-    width: calc((100% - 4rem) - 200px);
 }
 
 .news-text {
@@ -591,6 +590,11 @@ header {
     margin: 0 auto;
 }
 
+
+.access-main-top, .sns-main-top {
+    width: 50%;
+}
+
 .access-sns-box {
     display: flex;
     flex-direction: row;
@@ -612,6 +616,7 @@ header {
 
 .google-map-area {
     width: 100%;
+    margin-top: 1.2rem;
 }
 
 .twitter-area {
@@ -1260,6 +1265,10 @@ header {
         left: 0;
     }
 
+    .inner-main-area-sp {
+        left: 4rem;
+    }
+
     .main-visual-top {
         left: 6rem;
     }
@@ -1268,11 +1277,171 @@ header {
         max-width: 450px;
     }
 
+    .Adb-text-image {
+        display: block;
+    }
+
+    .top-img {
+        width: 60vw;
+        margin-top: 1.5rem;
+    }
+
+    .topAdbCompany {
+        width: 100%;
+    }
+
+    .topAdb-Conpany-detail {
+        display: block;
+    }
+
+    .human-img {
+        width: 73%;
+    }
+
+    .Company-detail {
+        margin-top: -2rem;
+        padding: 2rem 2rem;
+    }
+
+    .topNewsArea {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+    .menu-area {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+    .menu-images {
+        display: block;
+    }
+
+    .menu-img {
+        width: 28rem;
+        height: 17rem;
+    }
+
+    .company-area-main {
+        margin-bottom: 5rem;
+    }
+
+    .company-detail-rogo {
+        margin-top: 2rem;
+    }
+
+    .com-text-imagearea {
+        display: block;
+    }
+
+    .com-tell-area {
+        margin-bottom: 12rem;
+    }
+
+    .com-images {
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .place-main-area {
+        max-width: 500px;
+    }
+
+    .place-main-detail {
+        display: block;
+    }
+
+    .article-1 {
+        margin-right: 0;
+        margin-bottom: 5rem;
+    }
+
+    .form-main {
+        max-width: 500px;
+        margin: 0 auto;
+        margin: 3rem;
+    }
+
     .addBtn-Form {
         width: auto;
     }
+
+    .footer {
+        padding-top: 1rem;
+    }
+
+    .footer-menu-list {
+        display: block;
+    }
+
+    .footer-menu {
+        padding: 0.5rem 0;
+    }
+
+    .footer-menu-list {
+        display: block;
+    }
+
+    .footer-menu-text {
+        text-align: center;
+        padding: 1rem;
+        border-bottom: 2px rgba(70, 126, 117, 1) solid;
+    }
+
+    .footer-menu-text:last-of-type {
+        border-bottom: none;
+    }
 }
 
+
+@media screen and (max-width: 375px) {
+    .inner-main-area-sp {
+        left: 3rem;
+    }
+
+    .main-visual-top {
+        left: 0;
+    }
+
+    .message-area {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .topAdbCompany {
+        max-width: inherit;
+    }
+
+    .human-img {
+        margin-left: 3rem;
+    }
+
+    .Company-detail {
+        margin-top: 0;
+    }
+
+    .menu-images {
+        margin-left: 1.5rem;
+    }
+
+    .menu-img {
+        width: 20rem;
+        height: 15rem;
+    }
+
+    .com-text-main {
+        margin-left: 1rem;
+        margin-right: 0;
+    }
+
+    .com-tell-area {
+        margin-bottom: 7rem;
+    }
+
+    .company-area-main {
+        margin-bottom: 0;
+    }
+}
 
 @media screen and (max-width: 360px) {
 
