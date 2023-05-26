@@ -172,7 +172,7 @@ header {
     width: 81%;
     position: relative;
     top: -4rem;
-    left: 13rem;
+    left: 10rem;
     z-index: 150;
 }
 
@@ -956,9 +956,17 @@ header {
         padding-left: 2rem;
     }
 
-    .message-area, .menu-area, .NewsGroup, .company-area, .place-main-area {
+    .message-area, .menu-area, .NewsGroup .place-main-area {
         max-width: 700px;
         margin: 0 auto;
+    }
+
+    .company-area {
+        max-width: 700px !important;
+    }
+
+    .place-main-area {
+        max-width: 700px !important;
     }
 
     .news-title {
@@ -982,11 +990,9 @@ header {
 }
 
 
-
-
 @media screen and (max-width: 920px) {
     .main-visual-top {
-        left: 9rem;
+        left: 7rem;
     }
 
     .NewsGroup {
@@ -1017,7 +1023,7 @@ header {
     }
 
     .NewsGroup, .menu-area, .place-main-area {
-        max-width: 680px;
+        max-width: 700px;
         margin: 0 auto;
     }
 
@@ -1031,7 +1037,11 @@ header {
     }
 
     .footer-menu-text {
-        padding: 0 1.2rem;
+        padding: 0 1.0rem;
+    }
+
+    .fmenu-text {
+        font-size: 1rem;
     }
 }
 
@@ -1053,7 +1063,7 @@ header {
         margin: 1rem 1rem;
         position: absolute;
         top: -2rem;
-        left: 0;
+        left: -1rem;
     }
 
     .topMvArea {
