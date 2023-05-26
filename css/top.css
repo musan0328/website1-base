@@ -725,7 +725,7 @@ header {
 }
 
 
-.add-btn-text::before {
+/* .add-btn-text::before {
     background-image: url("../images/mail-form-icon.png");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -734,7 +734,7 @@ header {
     vertical-align: middle;
     width: 3rem;
     height: 3rem;
-}
+} */
 
 .add-btn-text {
     font-size: 1.5rem;
@@ -932,6 +932,7 @@ header {
     .insta-icon-sp, .twitter-icon-sp {
         width: 2rem;
         height: 2rem;
+        display: none;
     }
 
     .contact-main-area {
@@ -1166,7 +1167,7 @@ header {
     }
 
     .menu-images {
-        margin-left: 1rem;
+        margin: 1rem;
     }
 
     .company-area {
@@ -1394,6 +1395,48 @@ header {
 }
 
 
+@media screen and (max-width: 420px) {
+
+    .inner-main-area-sp {
+        left: 3.5rem;
+    }
+
+    .main-visual-top {
+        left: 1rem;
+    }
+
+    .topAdbCompany {
+        max-width: inherit;
+    }
+
+    .human-img {
+        width: 80%;
+        margin-left: 2.5rem;
+    }
+
+    .Company-detail {
+        margin-top: 0;
+    }
+
+    .menu-img {
+        width: 23rem;
+    }
+
+    .com-text-main {
+        margin-left: 2rem;
+    }
+
+    .com-tell-area {
+        margin-bottom: 7rem;
+        margin-left: 2rem;
+    }
+
+    .more-btn-asns {
+        margin-top: inherit
+    }
+}
+
+
 @media screen and (max-width: 375px) {
     .inner-main-area-sp {
         left: 3rem;
@@ -1429,6 +1472,10 @@ header {
         height: 15rem;
     }
 
+    .news-text, .menu-title {
+        font-size: 2.3rem;
+    }
+
     .com-text-main {
         margin-left: 1rem;
         margin-right: 0;
@@ -1459,5 +1506,56 @@ header {
 
     .form-btn-area {
         max-width: 320px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .inner-main-area-sp {
+        left: 1.8rem;
+    }
+
+    .Adb-text-image {
+        max-width: 260px;
+        margin: 0 auto;
+    }
+
+    .topAbd-text {
+        line-height: 2.5rem;
+    }
+
+    .top-img {
+        width: 100%;
+    }
+
+    .human-img {
+        width: 100%;
+        margin-left: inherit;
+    }
+
+    .topNewsArea {
+        max-width: 260px;
+        margin: 0 auto;
+    }
+
+    .com-text-main {
+        margin-left: 0.5rem;
+    }
+
+    .com-tell-area {
+        margin-left: 0;
+    }
+
+    .com-images {
+        width: 50vw;
+        height: 65vw;
+    }
+
+    .place-main-area {
+        max-width: 260px;
+        margin: 0 auto;
+    }
+
+    .add-btn-text {
+        font-size: 1.1rem;
     }
 }
