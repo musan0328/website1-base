@@ -25,7 +25,7 @@
                         </p>
                             <div class="header-menu-area">
                                 <ul class="inner">
-                                        <li class="inner_child"><a href="#" class="inner_text">おにぎりや</a></li>
+                                        <li class="inner_child"><a href="<?php echo home_url('studio-base/about.php'); ?>" class="inner_text">おにぎりや</a></li>
                                         <li class="inner_child"><a href="#" class="inner_text">こだわり</a></li>
                                         <li class="inner_child"><a href="#" class="inner_text">メニュー</a></li>
                                         <li class="inner_child"><a href="#" class="inner_text">新着情報</a></li>
