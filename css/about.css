@@ -450,9 +450,174 @@
         display: block;
     }
 
-
     /* Message */
     .msg-img {
         width: 6rem;
     }
+}
+
+@media screen and (max-width: 420px) {
+
+    .about-main {
+        margin: 0 auto;
+    }
+
+    .about-content-main {
+        margin-top: 9rem;
+    }
+
+    .about-detail-area {
+        max-width: 390px;
+        margin: 0 auto;
+    }
+
+    .about-image-area {
+        display: block;
+    }
+
+    .about-subimage {
+        width: 5rem;
+        display: inherit;
+    }
+
+    .aboutCptMain-Text {
+        left: -10rem;
+    }
+
+    .about-detail-images {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about-flex {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-img1 {
+        position: inherit;
+        box-shadow: none;
+        margin-right: 1rem;
+    }
+
+    .about-img2 {
+        margin: inherit;
+        box-shadow: none;
+    }
+
+    .about-img1, .about-img2 {
+        height: 15rem;
+    }
+
+    /* Profile */
+    .profile-main {
+        background-color: inherit;
+    }
+
+    .profile-area-main {
+        max-width: 750px;
+        margin: 0 auto;
+        padding-bottom: inherit;
+    }
+
+    .profile-history-area {
+        display: block;
+    }
+
+    .profile-history-image {
+        width: 100%;
+    }
+
+    .profile-company-detail {
+        margin-top: 3rem;
+        margin-left: 5rem;
+    }
+
+    .license-area {
+        margin-left: 6rem;
+    }
+
+    .history-main {
+        max-width: 350px;
+        margin: 0 auto;
+        margin-left: 0;
+    }
+
+
+    /* Image */
+    .about-images-main {
+        max-width: 390px;
+        margin: 0 auto;
+    }
+
+    .about-images {
+        flex-wrap: wrap;
+    }
+
+    .image-item {
+        width: 50%;
+        margin-bottom: 1rem;
+    }
+
+    .image-item:nth-child(2n) {
+        padding-right: 0;
+    }
+
+    .item-img {
+        height: 12rem;
+        object-fit: cover;
+    }
+
+
+    /* About */
+    .aboutCptlt {
+        display: block;
+    }
+
+    .cpt-img {
+        width: 100%;
+        height: 50vw;
+    }
+
+    .aboutCptMain-Text {
+        left: 2rem;
+        top: -3rem;
+        padding-left: 1.2rem;
+    }
+
+    .cpt-subimg {
+        display: none;
+    }
+
+    .message-main {
+        display: block;
+    }
+
+    .message-main-content {
+        max-width: 370px;
+        margin: 0 auto;
+        margin-top: 8rem;
+    }
+
+    .pc-only {
+        display: none;
+    }
+
+    .message-content-text {
+        font-weight: normal;
+    }
+
+    .message-image-area {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .msg-img {
+        width: 9rem;
+    }
+
+    .Btn-area {
+        margin-top: 4rem;
+    }
+
 }

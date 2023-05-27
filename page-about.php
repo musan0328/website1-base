@@ -54,11 +54,13 @@
             <div class="about-detail-area">
                 <div class="about-detail">
                     <div class="about-detail-images">
-                        <div class="about-img1">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/images4.jpg" alt="画像1" class="about-img1">
-                        </div>
-                        <div class="about-img2">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/images8.jpg" alt="画像2" class="about-img2">
+                        <div class="about-flex">
+                            <div class="about-img1">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/images4.jpg" alt="画像1" class="about-img1">
+                            </div>
+                            <div class="about-img2">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/images8.jpg" alt="画像2" class="about-img2">
+                            </div>
                         </div>
                         <div class="about-detail-textArea">
                             <p class="about-detail-text">私達が日本のお米を食べることは、日本の環境保全や生物多様性にもつながります。
@@ -142,16 +144,16 @@
             <div class="about-images-area">
                 <ul class="about-images">
                     <li class="image-item">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/images1.jpg" alt="画像1">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/images1.jpg" alt="画像1" class="item-img">
                     </li>
                     <li class="image-item">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/images3.jpg" alt="画像2">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/images3.jpg" alt="画像2" class="item-img">
                     </li>
                     <li class="image-item">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/images5.jpg" alt="画像3">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/images5.jpg" alt="画像3" class="item-img">
                     </li>
                     <li class="image-item">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/images8.jpg" alt="画像4">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/images8.jpg" alt="画像4" class="item-img">
                     </li>
                 </ul>
             </div>
