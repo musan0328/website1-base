@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <meta name="viewport" content="width=device-width"> -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/destyle.min.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/top.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/about.css">
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/onigiri_tenmusu.png">
     <title>おにぎりや</title>
 </head>
@@ -25,8 +25,8 @@
                         </p>
                             <div class="header-menu-area">
                                 <ul class="inner">
-                                        <li class="inner_child"><a href="<?php echo home_url('studio-base/about.php'); ?>" class="inner_text">おにぎりや</a></li>
-                                        <li class="inner_child"><a href="#" class="inner_text">こだわり</a></li>
+                                        <li class="inner_child"><a href="<?php echo home_url('top'); ?>" class="inner_text">おにぎりや</a></li>
+                                        <li class="inner_child"><a href="<?php echo home_url('about'); ?>" class="inner_text">こだわり</a></li>
                                         <li class="inner_child"><a href="#" class="inner_text">メニュー</a></li>
                                         <li class="inner_child"><a href="#" class="inner_text">新着情報</a></li>
                                         <li class="inner_child"><a href="#" class="inner_text">店舗情報</a></li>
