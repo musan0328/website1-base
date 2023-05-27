@@ -3,26 +3,27 @@
 <!-- main -->
  <!-- about.php main -->
  <main>
-    <div class="about-main">
-            <div class="about-main-area">
-                <div class="about-main-areaText">
-                    <div class="top-about-title">
-                        <h1 class="tabout-tit">CONCEPT</h1>
-                        <span class="sub-tab-text">おにぎりやとは</span>
+        <div class="about-main">
+            <div class="about-content-main">
+                    <div class="about-main-area">
+                        <div class="about-main-areaText">
+                            <div class="top-about-title">
+                                <h1 class="tabout-tit">CONCEPT</h1>
+                                <span class="sub-tab-text">おにぎりやとは</span>
+                            </div>
+                        </div>
                     </div>
-                </div>
             </div>
-            <div class="link-area-top">
-                <div class="link-area-about">
-                    <ul class="list-link-about">
-                        <li class="list-alink">
-                            <a href="#" class="about-top-link">TOP</a>
-                        </li>
-                        <li class="about-top-link-sub">おにぎりやとは</li>
-                    </ul>
-                </div>
+                    <div class="link-area-top">
+                        <div class="link-area-about">
+                            <ul class="list-link-about">
+                                <li class="list-alink">
+                                    <a href="#" class="about-top-link">TOP</a>
+                                </li>
+                                <li class="about-top-link-sub">おにぎりやとは</li>
+                            </ul>
+                     </div>
             </div>
-        </div>
         <div class="about-concept-main">
             <div class="about-main-flex">
                 <div class="about-concept">
@@ -43,7 +44,7 @@
                     </div>
                     <div class="top-about-mainimgArea">
                         <div class="top-about-mainimg">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/images1.jpg" alt="メイン画像">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/images2.jpg" alt="メイン画像">
                         </div>
                     </div>
                 </div>
@@ -109,7 +110,7 @@
                                 </dl>
                                 <dl class="history-area">
                                     <dt class="history-day">1995.4</dt>
-                                    <dd class="history-detail">食品会社に入社 惣菜・加工食品部門の営業部に所属</dd>
+                                    <dd class="history-detail">食品会社に入社 惣菜部門の営業部に所属</dd>
                                 </dl>
                                 <dl class="history-area">
                                     <dt class="history-day">2007.4</dt>
