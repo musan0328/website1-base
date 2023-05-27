@@ -466,18 +466,37 @@
         margin-top: 9rem;
     }
 
+    .list-link-about {
+        margin-bottom: 0;
+    }
+
+    .about-concept-main {
+        max-width: 390px;
+        margin: 0 auto;
+    }
+
+    .concept-textArea {
+        background: inherit;
+        height: inherit;
+    }
+
+    .costext {
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+    }
+
+    .about-concept-area {
+        position: inherit;
+    }
+
     .about-detail-area {
         max-width: 390px;
         margin: 0 auto;
     }
 
-    .about-image-area {
-        display: block;
-    }
-
     .about-subimage {
         width: 5rem;
-        display: inherit;
+        /* display: inherit; */
     }
 
     .aboutCptMain-Text {
