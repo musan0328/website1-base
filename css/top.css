@@ -566,6 +566,7 @@ header {
     display: flex;
     flex-direction: row;
     margin-top: -10rem;
+    margin-bottom: 5rem;
 }
 
 .com-images {
