@@ -1036,6 +1036,11 @@ header {
         font-size: 1.3rem;
     }
 
+    /* Google Map Twitter */
+    .access-main-top, .sns-main-top {
+        width: 100%;
+    }
+
     .footer-menu-text {
         padding: 0 1.0rem;
     }
