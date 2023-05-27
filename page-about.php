@@ -136,5 +136,102 @@
             </div>
         </div>
     </div>
+    <div class="about-images-main">
+        <div class="about-images-area">
+            <ul class="about-images">
+                <li class="image-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/images1.jpg" alt="画像1">
+                </li>
+                <li class="image-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/images3.jpg" alt="画像2">
+                </li>
+                <li class="image-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/images5.jpg" alt="画像3">
+                </li>
+                <li class="image-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/images8.jpg" alt="画像4">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="aboutCptArea">
+        <div class="aboutCptlt">
+            <div class="aboutCpt">
+                <div class="aboutCptImageArea">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/com-image1.jpg" alt="画像" class="cpt-img">
+                </div>
+            </div>
+            <div class="aboutCpText">
+                <div class="aboutCptMain-Text">
+                    <h2 classs="CptMain-Text">
+                        <span class="CptSub-Text">自然に、人に</span> <br class="pc-only">
+                        <span class="CptSub-Text">愛されるお店</span>
+                    </h2>
+                </div>
+                <div class="aboutCptSub-Text">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/onigiri_tenmusu.png" alt="サブ画像" class="cpt-subimg">
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="aboutMessage">
+        <div class="message-area-content">
+            <div class="message-main">
+                <div class="message-main-content">
+                    <p class="message-content-text">
+                        私たちは、地球に優しく <br class="pc-only">
+                        環境に優しい <br class="pc-only">
+                        お店作りをしてまいります。
+                    </p>
+                    <ul class="message-content-list">
+                        <li class="message-text-item">テキストが入ります。テキストが入ります。テキストが入ります。</li>
+                        <li class="message-text-item">テキストが入ります。テキストが入ります。テキストが入ります。</li>
+                        <li class="message-text-item">テキストが入ります。テキストが入ります。テキストが入ります。</li>
+                        <li class="message-text-item">テキストが入ります。テキストが入ります。テキストが入ります。</li>
+                        <li class="message-text-item">テキストが入ります。テキストが入ります。テキストが入ります。</li>
+                        <li class="message-text-item">テキストが入ります。テキストが入ります。テキストが入ります。</li>
+                    </ul>
+                </div>
+                <div class="message-image">
+                    <div class="message-image-area">
+                        <ul class="message-img-content">
+                            <li class="message-image-detail">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/onigiri_tenmusu.png" alt="画像1" class="msg-img">
+                            </li>
+                            <li class="message-image-detail">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/onigiri_tenmusu.png" alt="画像1" class="msg-img">
+                            </li>
+                            <li class="message-image-detail">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/onigiri_tenmusu.png" alt="画像1" class="msg-img">
+                            </li>
+                            <li class="message-image-detail">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/onigiri_tenmusu.png" alt="画像1" class="msg-img">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Btn-area">
+        <div class="more-btn-asns">
+            <a href="#" class="btn-desin">
+                <span class="btn-text">業務内容はこちら</span>
+            </a>
+        </div>
+    </div>
+     <!-- お問い合わせボタン -->
+     <div class="form-main">
+        <div class="form-btn-area">
+            <div class="btn-add">
+                <a href="#" class="addBtn-Form">
+                    <div class="addBtn-Form-text">
+                        <h1 href="#" class="add-btn-text">お問い合わせ</h1>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
 
 <?php get_footer(); ?>
