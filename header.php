@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/about.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/menu.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/news.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/shop.css">
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/onigiri_tenmusu.png">
     <title>おにぎりや</title>
 </head>

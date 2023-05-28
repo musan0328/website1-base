@@ -26,7 +26,7 @@
                     <div class="shop-flex">
                         <div class="shop-number-area">
                             <div class="snm-content">
-                                <img src="" alt="" class="shop-area-img">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-num1.png" alt="数字画像" class="shop-number-img">
                             </div>
                             <span class="shop-area-textdetail"></span>
                         </div>
@@ -47,7 +47,7 @@
                         </div>
                         <div class="shop-area-image">
                             <div class="snm-content3">
-                                <img src="" alt="" class="shop-imgcontent">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-img1.png" alt="画像1" class="shop-imgcontent">
                             </div>
                         </div>
                     </div>
