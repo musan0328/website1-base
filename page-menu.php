@@ -48,7 +48,7 @@
                     </div>
                     <div class="menu-detail">
                             <div class="menu-detail-item">
-                                <a href="#">
+                                <a href="#" class="menupage-link">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img3.jpg" alt="メニュー3" class="menupage-item">
                                 </a>
                             </div>
@@ -59,7 +59,7 @@
                     </div>
                     <div class="menu-detail">
                             <div class="menu-detail-item">
-                                <a href="#">
+                                <a href="#" class="menupage-link">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img4.jpg" alt="メニュー4" class="menupage-item">
                                 </a>
                             </div>
@@ -70,7 +70,7 @@
                     </div>
                     <div class="menu-detail">
                             <div class="menu-detail-item">
-                                <a href="#">
+                                <a href="#" class="menupage-link">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img5.jpg" alt="メニュー5" class="menupage-item">
                                 </a>
                             </div>
@@ -81,7 +81,7 @@
                     </div>
                     <div class="menu-detail">
                             <div class="menu-detail-item">
-                                <a href="#">
+                                <a href="#" class="menupage-link">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img6.jpg" alt="メニュー6" class="menupage-item">
                                 </a>
                             </div>
@@ -92,7 +92,7 @@
                     </div>
                     <div class="menu-detail">
                             <div class="menu-detail-item">
-                                <a href="#">
+                                <a href="#" class="menupage-link">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img7.jpg" alt="メニュー7" class="menupage-item">
                                 </a>
                             </div>
@@ -103,7 +103,7 @@
                     </div>
                     <div class="menu-detail">
                             <div class="menu-detail-item">
-                                <a href="#">
+                                <a href="#" class="menupage-link">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img8.jpg" alt="メニュー8" class="menupage-item">
                                 </a>
                             </div>
@@ -114,7 +114,7 @@
                     </div>
                     <div class="menu-detail">
                             <div class="menu-detail-item">
-                                <a href="#">
+                                <a href="#" class="menupage-link">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img9.jpg" alt="メニュー9" class="menupage-item">
                                 </a>
                             </div>
@@ -125,7 +125,7 @@
                     </div>
                     <div class="menu-detail">
                             <div class="menu-detail-item">
-                                <a href="#">
+                                <a href="#" class="menupage-link">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img10.jpg" alt="メニュー10" class="menupage-item">
                                 </a>
                             </div>
@@ -136,13 +136,24 @@
                     </div>
                     <div class="menu-detail">
                             <div class="menu-detail-item">
-                                <a href="#">
+                                <a href="#" class="menupage-link">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img11.jpg" alt="メニュー11" class="menupage-item">
                                 </a>
                             </div>
                             <div class="menu-detail-text">
                                 <span class="menu-text1">かぶの餡かけスープ</span>
                                 <h2 class="menu-text2">500円</h2>
+                            </div>
+                    </div>
+                    <div class="menu-detail">
+                            <div class="menu-detail-item">
+                                <a href="#" class="menupage-link">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img12.jpg" alt="メニュー12" class="menupage-item">
+                                </a>
+                            </div>
+                            <div class="menu-detail-text">
+                                <span class="menu-text1">カツカレー定食</span>
+                                <h2 class="menu-text2">900円</h2>
                             </div>
                     </div>
                 </div>
