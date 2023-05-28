@@ -1,3 +1,69 @@
+.shop-main {
+    margin-top: 5rem;
+}
+
+.shop-main-area {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.shop-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.shop-number-area {
+    margin-right: 2rem;
+}
+
+.snm-content {
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.shop-plan-area {
+    margin-bottom: 3rem;
+}
+
 .shop-number-img {
     width: 1.5rem;
+}
+
+
+.shop-area-textdetail {
+    font-family: 'Noto Serif JP', serif;
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
+}
+
+.snm-content2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.con2-text {
+    font-size: 2rem;
+    font-family: 'Noto Serif JP', serif;
+    letter-spacing: 0.3rem;
+    width: 100%;
+    border-bottom: 1px rgba(217, 217, 217, 1) solid;
+    padding-bottom: 1rem;
+    margin-bottom: 1.2rem;
+    margin-right: 0.8rem;
+}
+
+.con2-text-sub {
+    font-size: 1.4rem;
+    font-family: 'Noto Serif JP', serif;
+}
+
+.con2-subcontent {
+    line-height: 2;
+    margin-bottom: 1.5rem;
+}
+
+.im-text-red {
+    color: rgba(230, 75, 6, 1);
+    font-weight: bold;
 }

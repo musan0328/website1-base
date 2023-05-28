@@ -28,20 +28,19 @@
                             <div class="snm-content">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/shop-num1.png" alt="数字画像" class="shop-number-img">
                             </div>
-                            <span class="shop-area-textdetail"></span>
+                            <span class="shop-area-textdetail">STEP</span>
                         </div>
                         <div class="shop-plan-area">
                             <div class="shop-plan-areadetail">
                                 <div class="snm-content2">
-                                    <h2>ご相談</h2>
-                                    <small>(ご来店)</small>
+                                    <h2 class="con2-text">ご相談 <small class="con2-text-sub">(ご来店)</small></h2>
                                 </div>
-                                <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                <p class="con2-subcontent">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
                                 テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
                                 </p>
                                 <ul class="snm-content-im">
-                                    <li>予約制です。</li> <br class="pc-only">
-                                    <li>ご予約は、電話でお願いします。</li>
+                                    <li class="im-text-red">※当店は、予約制です。</li> <br class="pc-only">
+                                    <li class="im-text-red">ご予約は、お電話またはメールにてお願いします。</li>
                                 </ul>
                             </div>
                         </div>
