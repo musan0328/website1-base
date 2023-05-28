@@ -50,23 +50,25 @@
                 </div>
             </div>
         </div>
-        <div class="about-detail-main">
-            <div class="about-detail-area">
-                <div class="about-detail">
-                    <div class="about-detail-images">
-                        <div class="about-flex">
-                            <div class="about-img1">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/images4.jpg" alt="画像1" class="about-img1">
+        <div class="about-area-top">
+            <div class="about-detail-main">
+                <div class="about-detail-area">
+                    <div class="about-detail">
+                        <div class="about-detail-images">
+                            <div class="about-flex">
+                                <div class="about-img1">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/images4.jpg" alt="画像1" class="about-image1">
+                                </div>
+                                <div class="about-img2">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/images8.jpg" alt="画像2" class="about-image2">
+                                </div>
                             </div>
-                            <div class="about-img2">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/images8.jpg" alt="画像2" class="about-img2">
+                            <div class="about-detail-textArea">
+                                <p class="about-detail-text">私達が日本のお米を食べることは、日本の環境保全や生物多様性にもつながります。
+                                    食べ手がいてこそ、作り手や田んぼを維持することができ、田んぼは人の手が加わってこそ
+                                    維持することができるのです。
+                                </p>
                             </div>
-                        </div>
-                        <div class="about-detail-textArea">
-                            <p class="about-detail-text">私達が日本のお米を食べることは、日本の環境保全や生物多様性にもつながります。
-                                食べ手がいてこそ、作り手や田んぼを維持することができ、田んぼは人の手が加わってこそ
-                                維持することができるのです。
-                            </p>
                         </div>
                     </div>
                 </div>
