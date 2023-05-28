@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/destyle.min.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/top.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/about.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/menu.css">
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/onigiri_tenmusu.png">
     <title>おにぎりや</title>
 </head>
@@ -27,7 +28,7 @@
                                 <ul class="inner">
                                         <li class="inner_child"><a href="<?php echo home_url('top'); ?>" class="inner_text">おにぎりや</a></li>
                                         <li class="inner_child"><a href="<?php echo home_url('about'); ?>" class="inner_text">こだわり</a></li>
-                                        <li class="inner_child"><a href="#" class="inner_text">メニュー</a></li>
+                                        <li class="inner_child"><a href="<?php echo home_url('menu'); ?>" class="inner_text">メニュー</a></li>
                                         <li class="inner_child"><a href="#" class="inner_text">新着情報</a></li>
                                         <li class="inner_child"><a href="#" class="inner_text">店舗情報</a></li>
                                 </ul>

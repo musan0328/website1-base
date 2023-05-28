@@ -991,6 +991,7 @@ header {
 }
 
 
+
 @media screen and (max-width: 920px) {
     .main-visual-top {
         left: 7rem;
@@ -1527,7 +1528,7 @@ header {
 
 @media screen and (max-width: 290px) {
     .inner-main-area-sp {
-        left: 1.8rem;
+        left: 2rem;
     }
 
     .Adb-text-image {
