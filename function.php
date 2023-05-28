@@ -7,3 +7,6 @@ function my_styles() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'my_styles' );
+
+//JavaScript読み込み
+wp_enqueue_script('script_name', get_template_directory_uri() . '/js/main.js', array(), '1.0.0', true); 
