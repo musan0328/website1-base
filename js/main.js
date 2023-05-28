@@ -2,7 +2,7 @@
 
 $(function () {
     const hamburger = $(".hamburger");
-    const nav = $(".nav");
+    const nav = $(".nav-sp");
 
     hamburger.click(function () {
 
