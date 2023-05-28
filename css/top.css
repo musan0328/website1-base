@@ -998,7 +998,8 @@ header {
     }
 
     .NewsGroup {
-        max-width: 850px;
+        max-width: 750px;
+        margin: 0 auto;
     }
 
     .menu-area {
@@ -1284,7 +1285,8 @@ header {
     }
 
     .inner-main-area-sp {
-        left: 4rem;
+        left: 5rem;
+        top: 0.5rem;
     }
 
     .main-visual-top {
@@ -1528,7 +1530,7 @@ header {
 
 @media screen and (max-width: 290px) {
     .inner-main-area-sp {
-        left: 2rem;
+        left: 1.5rem;
     }
 
     .Adb-text-image {

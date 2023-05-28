@@ -18,7 +18,7 @@
                                 <li class="list-alink">
                                     <a href="#" class="about-top-link">TOP</a>
                                 </li>
-                                <li class="about-top-link-sub">おにぎりやとは</li>
+                                <li class="about-top-link-sub">お品書き</li>
                             </ul>
                      </div>
             </div>
@@ -31,7 +31,7 @@
                                 </a>
                             </div>
                             <div class="menu-detail-text">
-                                <span class="menu-text1">焼きおにぎり</span>
+                                <span class="menu-text1">味噌おにぎり</span>
                                 <h2 class="menu-text2">500円</h2>
                             </div>
                     </div>

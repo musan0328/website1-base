@@ -105,9 +105,9 @@
                         </div>
                     </a>
                 </div>
-           </div>
-      </div>
-    </div>
+              </div>
+            </div>
+        </div>
     <!-- Menuエリア -->
     <div class="menu-area-main">
         <div class="menu-area">
