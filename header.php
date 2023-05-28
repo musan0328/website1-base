@@ -31,7 +31,7 @@
                                         <li class="inner_child"><a href="<?php echo home_url('about'); ?>" class="inner_text">こだわり</a></li>
                                         <li class="inner_child"><a href="<?php echo home_url('menu'); ?>" class="inner_text">お品書き</a></li>
                                         <li class="inner_child"><a href="<?php echo home_url('news'); ?>" class="inner_text">新着情報</a></li>
-                                        <li class="inner_child"><a href="#" class="inner_text">店舗情報</a></li>
+                                        <li class="inner_child"><a href="<?php echo home_url('shop'); ?>" class="inner_text">店舗情報</a></li>
                                 </ul>
                                 <div class="header-box">
                                     <div class="sns-area">
