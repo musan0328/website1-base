@@ -46,7 +46,7 @@
                         </div>
                         <div class="shop-area-image">
                             <div class="snm-content3">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-img1.png" alt="画像1" class="shop-imgcontent">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-img1.png" alt="画像1" class="shop-imgcontent1">
                             </div>
                         </div>
                     </div>
@@ -73,7 +73,7 @@
                         </div>
                         <div class="shop-area-image">
                             <div class="snm-content3">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-img2.png" alt="画像1" class="shop-imgcontent">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-img2.png" alt="画像1" class="shop-imgcontent2">
                             </div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
                         </div>
                         <div class="shop-area-image">
                             <div class="snm-content3">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-img3.png" alt="画像1" class="shop-imgcontent">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-img3.png" alt="画像1" class="shop-imgcontent3">
                             </div>
                         </div>
                     </div>
@@ -127,7 +127,7 @@
                         </div>
                         <div class="shop-area-image">
                             <div class="snm-content3">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-img4.png" alt="画像1" class="shop-imgcontent">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-img4.png" alt="画像1" class="shop-imgcontent4">
                             </div>
                         </div>
                     </div>
@@ -154,7 +154,7 @@
                         </div>
                         <div class="shop-area-image">
                             <div class="snm-content3">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-img5.png" alt="画像1" class="shop-imgcontent">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-img5.png" alt="画像1" class="shop-imgcontent5">
                             </div>
                         </div>
                     </div>
@@ -181,7 +181,7 @@
                         </div>
                         <div class="shop-area-image">
                             <div class="snm-content3">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-img6.png" alt="画像1" class="shop-imgcontent">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-img6.png" alt="画像1" class="shop-imgcontent6">
                             </div>
                         </div>
                     </div>
@@ -208,7 +208,7 @@
                         </div>
                         <div class="shop-area-image">
                             <div class="snm-content3">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-img7.png" alt="画像1" class="shop-imgcontent">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-img7.png" alt="画像1" class="shop-imgcontent7">
                             </div>
                         </div>
                     </div>
@@ -216,7 +216,7 @@
 
                 <div class="shop-main">
                 <div class="shop-main-area">
-                    <div class="shop-flex">
+                    <div class="shop-flex2">
                         <div class="shop-number-area">
                             <div class="snm-content">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/shop-num8.png" alt="数字画像" class="shop-number-img">
@@ -235,7 +235,7 @@
                         </div>
                         <div class="shop-area-image">
                             <div class="snm-content3">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-img8.png" alt="画像1" class="shop-imgcontent">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-img8.png" alt="画像1" class="shop-imgcontent8">
                             </div>
                         </div>
                     </div>

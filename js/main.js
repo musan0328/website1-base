@@ -1,4 +1,5 @@
 "use strict";
+console.log('aaa');
 
 $(function () {
     const hamburger = $(".hamburger");
@@ -10,3 +11,4 @@ $(function () {
         nav.toggleClass("is_active");
     });
 });
+

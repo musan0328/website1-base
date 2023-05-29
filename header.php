@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/news.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/shop.css">
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/onigiri_tenmusu.png">
+    <!-- JavaScript読み込み -->
+    <script src="<?php echo get_template_directory_uri(); ?>/js/main.js" type="text/javaScript" charset="utf-8"></script>
     <title>おにぎりや</title>
 </head>
 <body>
