@@ -1,3 +1,7 @@
+.about-main {
+    margin-bottom: 5rem;
+}
+
 .shop-main {
     margin-top: 5rem;
 }
@@ -5,13 +9,31 @@
 .shop-main-area {
     max-width: 950px;
     margin: 0 auto;
+    position: relative;
 }
 
 .shop-flex {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-bottom: 1px rgba(0, 60, 51, 1) solid;
 }
+
+.shop-flex:after {
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom: 1px rgba(0, 60, 51, 1) solid;
+    border-right: 1px rgba(0, 60, 51, 1) solid;
+    bottom: -1.1rem;
+    content: "";
+    display: inline-block;
+    height: 35px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%) rotate(45deg);
+    width: 35px;
+    z-index: 150;
+}
+
 
 .shop-number-area {
     margin-right: 2rem;

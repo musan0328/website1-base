@@ -51,6 +51,198 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="shop-main">
+                <div class="shop-main-area">
+                    <div class="shop-flex">
+                        <div class="shop-number-area">
+                            <div class="snm-content">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-num2.png" alt="数字画像" class="shop-number-img">
+                            </div>
+                            <span class="shop-area-textdetail">STEP</span>
+                        </div>
+                        <div class="shop-plan-area">
+                            <div class="shop-plan-areadetail">
+                                <div class="snm-content2">
+                                    <h2 class="con2-text">ご相談 <small class="con2-text-sub">(ご来店)</small></h2>
+                                </div>
+                                <p class="con2-subcontent">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="shop-area-image">
+                            <div class="snm-content3">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-img2.png" alt="画像1" class="shop-imgcontent">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shop-main">
+                <div class="shop-main-area">
+                    <div class="shop-flex">
+                        <div class="shop-number-area">
+                            <div class="snm-content">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-num3.png" alt="数字画像" class="shop-number-img">
+                            </div>
+                            <span class="shop-area-textdetail">STEP</span>
+                        </div>
+                        <div class="shop-plan-area">
+                            <div class="shop-plan-areadetail">
+                                <div class="snm-content2">
+                                    <h2 class="con2-text">ご相談 <small class="con2-text-sub">(ご来店)</small></h2>
+                                </div>
+                                <p class="con2-subcontent">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="shop-area-image">
+                            <div class="snm-content3">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-img3.png" alt="画像1" class="shop-imgcontent">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shop-main">
+                <div class="shop-main-area">
+                    <div class="shop-flex">
+                        <div class="shop-number-area">
+                            <div class="snm-content">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-num4.png" alt="数字画像" class="shop-number-img">
+                            </div>
+                            <span class="shop-area-textdetail">STEP</span>
+                        </div>
+                        <div class="shop-plan-area">
+                            <div class="shop-plan-areadetail">
+                                <div class="snm-content2">
+                                    <h2 class="con2-text">ご相談 <small class="con2-text-sub">(ご来店)</small></h2>
+                                </div>
+                                <p class="con2-subcontent">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="shop-area-image">
+                            <div class="snm-content3">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-img4.png" alt="画像1" class="shop-imgcontent">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shop-main">
+                <div class="shop-main-area">
+                    <div class="shop-flex">
+                        <div class="shop-number-area">
+                            <div class="snm-content">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-num5.png" alt="数字画像" class="shop-number-img">
+                            </div>
+                            <span class="shop-area-textdetail">STEP</span>
+                        </div>
+                        <div class="shop-plan-area">
+                            <div class="shop-plan-areadetail">
+                                <div class="snm-content2">
+                                    <h2 class="con2-text">ご相談 <small class="con2-text-sub">(ご来店)</small></h2>
+                                </div>
+                                <p class="con2-subcontent">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="shop-area-image">
+                            <div class="snm-content3">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-img5.png" alt="画像1" class="shop-imgcontent">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shop-main">
+                <div class="shop-main-area">
+                    <div class="shop-flex">
+                        <div class="shop-number-area">
+                            <div class="snm-content">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-num6.png" alt="数字画像" class="shop-number-img">
+                            </div>
+                            <span class="shop-area-textdetail">STEP</span>
+                        </div>
+                        <div class="shop-plan-area">
+                            <div class="shop-plan-areadetail">
+                                <div class="snm-content2">
+                                    <h2 class="con2-text">ご相談 <small class="con2-text-sub">(ご来店)</small></h2>
+                                </div>
+                                <p class="con2-subcontent">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="shop-area-image">
+                            <div class="snm-content3">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-img6.png" alt="画像1" class="shop-imgcontent">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shop-main">
+                <div class="shop-main-area">
+                    <div class="shop-flex">
+                        <div class="shop-number-area">
+                            <div class="snm-content">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-num7.png" alt="数字画像" class="shop-number-img">
+                            </div>
+                            <span class="shop-area-textdetail">STEP</span>
+                        </div>
+                        <div class="shop-plan-area">
+                            <div class="shop-plan-areadetail">
+                                <div class="snm-content2">
+                                    <h2 class="con2-text">ご相談 <small class="con2-text-sub">(ご来店)</small></h2>
+                                </div>
+                                <p class="con2-subcontent">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="shop-area-image">
+                            <div class="snm-content3">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-img7.png" alt="画像1" class="shop-imgcontent">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shop-main">
+                <div class="shop-main-area">
+                    <div class="shop-flex">
+                        <div class="shop-number-area">
+                            <div class="snm-content">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-num8.png" alt="数字画像" class="shop-number-img">
+                            </div>
+                            <span class="shop-area-textdetail">STEP</span>
+                        </div>
+                        <div class="shop-plan-area">
+                            <div class="shop-plan-areadetail">
+                                <div class="snm-content2">
+                                    <h2 class="con2-text">ご相談 <small class="con2-text-sub">(ご来店)</small></h2>
+                                </div>
+                                <p class="con2-subcontent">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="shop-area-image">
+                            <div class="snm-content3">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/shop-img8.png" alt="画像1" class="shop-imgcontent">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                
             </div>
 </main>
 
