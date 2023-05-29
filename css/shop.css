@@ -133,4 +133,32 @@
 }
 
 
-@media screen and (max-width: 375px) {}
+@media screen and (max-width: 420px) {
+
+    .shop-main {
+        max-width: 390px;
+        margin: 0 auto;
+    }
+
+    .shop-flex, .shop-flex2 {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+
+    .shop-main {
+        max-width: 370px;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+
+    .shop-main {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+}
