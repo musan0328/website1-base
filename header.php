@@ -39,7 +39,7 @@
                 </div>
                 <div class="tell-header">
                     <div class="tell-mail-main">
-                        <div class="tell-area-header">
+                        <div class="contact-area-header">
                             <a href="<?php echo home_url('contact'); ?>" class="header-contact-link">
                                 <div class="contact-link-icon">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/mail-hbmenu.png" alt="メールアイコン" class="con-link-icon">
@@ -50,7 +50,7 @@
 
                             </a>
                         </div>
-                        <div>
+                        <div class="tell-area-header">
                             <a href="<?php echo home_url('contact'); ?>" class="header-contact-link">
                                 <div class="contact-link-icon">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/tell-icon.png" alt="メールアイコン" class="con-link-icon">
