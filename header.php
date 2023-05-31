@@ -20,13 +20,18 @@
     <header>
         <!-- ハンバーガーメニュー開いととき -->
             <div class="nav-sp-main">
+                    <div class="nav-sp-logo">
+                        <a href="<?php echo home_url('top'); ?>" class="nav-header-logolink">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/onigiri_tenmusu.png" alt="ロゴ" class="nav-sp-logo-img">
+                        </a>
+                    </div>
                 <nav class="nav-sp">
                     <ul class="nav-list-sp">
-                        <li class="nav-item"><a href="">おにぎりや</a></li>
-                        <li class="nav-item"><a href="">こだわり</a></li>
-                        <li class="nav-item"><a href="">メニュー</a></li>
-                        <li class="nav-item"><a href="">新着情報</a></li>
-                        <li class="nav-item"><a href="">店舗情報</a></li>
+                        <li class="nav-item"><a href="<?php echo home_url('top'); ?>" class="hm-link">おにぎりや</a></li>
+                        <li class="nav-item"><a href="<?php echo home_url('about'); ?>" class="hm-link">こだわり</a></li>
+                        <li class="nav-item"><a href="<?php echo home_url('menu'); ?>" class="hm-link">メニュー</a></li>
+                        <li class="nav-item"><a href="<?php echo home_url('news'); ?>" class="hm-link">新着情報</a></li>
+                        <li class="nav-item"><a href="<?php echo home_url('shop'); ?>" class="hm-link">店舗情報</a></li>
                     </ul>
                 </nav>
                 <div class="sns-header">

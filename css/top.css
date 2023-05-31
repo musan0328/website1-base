@@ -816,7 +816,7 @@ header {
 
 .sns-icon-footer, .sns-icon-header {
     width: 2.5rem;
-    margin: 2rem 2rem 2rem;
+    margin: 2rem 1rem 1rem;
 }
 
 .copyright-menu {
@@ -921,6 +921,10 @@ header {
         transform: translateY(-50%) rotate(-135deg);
     }
 
+    .nav-sp-logo-img {
+        width: 4rem;
+    }
+
     .nav-sp-main {
         display: inherit;
         height: 100vh;
@@ -939,7 +943,7 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 3rem;
+        margin-top: 1.5rem;
     }
 
     .nav-sp-main.is_active {
@@ -948,9 +952,20 @@ header {
     }
 
     .nav-list-sp {
-        display: flex;
-        flex-direction: column;
-        gap: 32px;
+        display: block;
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .nav-item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hm-link {
+        border-bottom: 1px rgba(0, 60, 51, 1) solid;
+        display: block;
+        padding: 1rem 0;
     }
 
     .tell-header {
