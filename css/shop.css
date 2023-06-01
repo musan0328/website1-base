@@ -106,6 +106,14 @@
     height: auto;
 }
 
+@media screen and (max-width: 920px) {
+
+    .shop-main {
+        max-width: 850px;
+        margin: 0 auto;
+    }
+}
+
 @media screen and (max-width: 830px) {
     .shop-main {
         max-width: 780px;
@@ -144,6 +152,42 @@
 }
 
 
+@media screen and (max-width: 550px) {
+
+    .shop-flex, .shop-flex2 {
+        display: block;
+    }
+
+    .shop-main {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .snm-content3 {
+        max-width: 100px;
+        margin: 0 auto;
+    }
+
+    .shop-imgcontent1, .shop-imgcontent2, .shop-imgcontent3 {
+        width: 8rem;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+
+    .shop-imgcontent4, .shop-imgcontent5, .shop-imgcontent6 {
+        width: 8rem;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+
+    .shop-imgcontent7, .shop-imgcontent8 {
+        width: 8rem;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+}
+
+
 @media screen and (max-width: 420px) {
 
     .shop-main {
@@ -155,6 +199,40 @@
     .shop-flex, .shop-flex2 {
         display: block;
     }
+
+    .snm-content3 {
+        max-width: 120px;
+        margin: 0 auto;
+    }
+
+    .shop-imgcontent1, .shop-imgcontent2, .shop-imgcontent3 {
+        width: 8rem;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+
+    .shop-imgcontent4, .shop-imgcontent5, .shop-imgcontent6 {
+        width: 8rem;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+
+    .shop-imgcontent7, .shop-imgcontent8 {
+        width: 8rem;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .shop-main {
+        max-width: 350px;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    }
+
 }
 
 
@@ -166,7 +244,7 @@
     }
 
     .snm-content3 {
-        max-width: 160px;
+        max-width: 120px;
         margin: 0 auto;
     }
 }
@@ -175,7 +253,15 @@
 @media screen and (max-width: 375px) {
 
     .shop-main {
-        max-width: 350px;
+        max-width: 330px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 280px) {
+
+    .shop-main {
+        max-width: 250px;
         margin: 0 auto;
     }
 }
