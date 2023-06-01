@@ -1133,6 +1133,11 @@ header {
 
 @media screen and (max-width: 550px) {
 
+
+    .logo-img {
+        width: 4.5rem;
+    }
+
     .hamburger_bar {
         left: -5.5rem;
     }
@@ -1509,6 +1514,10 @@ header {
 
 @media screen and (max-width: 420px) {
 
+    .logo-img {
+        width: 5rem;
+    }
+
     .inner-main-area-sp {
         left: 3.5rem;
     }
@@ -1622,6 +1631,11 @@ header {
 }
 
 @media screen and (max-width: 290px) {
+
+    .logo-img {
+        width: 4rem;
+    }
+
     .inner-main-area-sp {
         left: 1.5rem;
     }
@@ -1673,5 +1687,17 @@ header {
 
     .add-btn-text {
         font-size: 1.1rem;
+    }
+
+    .top-access-sns-main {
+        padding: 2rem;
+    }
+
+    .twitter-timeline {
+        width: 60%;
+    }
+
+    .more-btn-asns {
+        margin-top: -3rem;
     }
 }
