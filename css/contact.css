@@ -1,0 +1,29 @@
+.form-main-area {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.form-title-text {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.formItem {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-top: 1px rgba(217, 217, 217, 1) solid;
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+
+.form-subject {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}
+
+.form-name {
+    margin-right: 5rem;
+}
