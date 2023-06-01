@@ -20,11 +20,6 @@
     <header>
         <!-- ハンバーガーメニュー開いととき -->
             <div class="nav-sp-main">
-                    <div class="nav-sp-logo">
-                        <a href="<?php echo home_url('top'); ?>" class="nav-header-logolink">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/onigiri_tenmusu.png" alt="ロゴ" class="nav-sp-logo-img">
-                        </a>
-                    </div>
                 <nav class="nav-sp">
                     <ul class="nav-list-sp">
                         <li class="nav-item"><a href="<?php echo home_url('top'); ?>" class="hm-link">おにぎりや</a></li>
