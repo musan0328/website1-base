@@ -103,6 +103,11 @@
                                 <dd class="form-detail-area">
                                     <div class="form-error-text"></div>
                                     <input type="text" id="name1" name="name1" class="detail-text" placeholder="半角でご入力ください" value>
+                                    <ul class="mail-note">
+                                        <li class="note-text">※入力アドレスに内容を自動返信いたします。</li>
+                                        <li class="note-text">※受信制限をされている方は「@onigiri.jp」を許可してください。</li>
+                                        <li class="note-text">※Gmailや一部のフリーメールをご利用の場合、メールが正常に届かない場合があります。</li>
+                                    </ul>
                                 </dd>
                             </dl>
 
