@@ -43,7 +43,9 @@
                         <div class="contact-area-header">
                             <a href="<?php echo home_url('contact'); ?>" class="header-contact-link">
                                 <div class="contact-link-icon">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/mail-hbmenu.png" alt="メールアイコン" class="con-link-icon">
+                                    <a href="<?php echo home_url('contact'); ?>">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/mail-hbmenu.png" alt="メールアイコン" class="con-link-icon">
+                                    </a>
                                 </div>
                                 <span class="contact-text">お問い合わせ <br>
                                 来店予約

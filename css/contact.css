@@ -15,15 +15,59 @@
     flex-wrap: wrap;
     border-top: 1px rgba(217, 217, 217, 1) solid;
     padding-top: 1rem;
+    padding-bottom: 0.5rem;
     margin-top: 1rem;
+    align-items: center;
 }
 
 .form-subject {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     width: 300px;
+    margin-right: 4.5rem;
 }
 
 .form-name {
-    margin-right: 5rem;
+    color: rgba(0, 60, 51, 1);
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.form-rabel {
+    width: 3rem;
+    height: 1.3rem;
+    align-items: center;
+    background-color: rgba(230, 75, 6, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 0 0 2px;
+    text-align: center;
+    line-height: 1.3;
+    font-weight: normal;
+    border-radius: 2px;
+}
+
+.detail-text, .detail-text2 {
+    height: 2.3rem;
+    background-color: rgba(242, 242, 242, 1);
+}
+
+.detail-text {
+    width: 35rem;
+    padding: 1rem 0.9rem;
+}
+
+.detail-text2 {
+    padding: 1rem 0.9rem;
+}
+
+.form-detail-area input {
+    cursor: pointer;
+}
+
+.form-textarea-main {
+    width: 35rem;
+    height: 12rem;
+    background-color: rgba(242, 242, 242, 1);
+    resize: none;
 }

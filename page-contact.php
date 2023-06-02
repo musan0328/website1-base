@@ -59,7 +59,7 @@
                                 <dd class="form-detail-area">
                                     <div class="form-error-text"></div>
                                     <label for="" class="post-con">〒</label>
-                                    <input type="text" id="name1" name="name1" class="detail-text" placeholder="半角英数字" value>
+                                    <input type="text" id="name1" name="name1" class="detail-text2" placeholder="半角英数字" value>
                                 </dd>
                             </dl>
 
@@ -135,7 +135,7 @@
                                 </dt>
                                 <dd class="form-detail-area">
                                     <div class="form-error-text"></div>
-                                    <textarea name="form-textarea" id="comment" cols="30" rows="10"></textarea>
+                                    <textarea name="form-textarea" id="comment" cols="30" rows="10" class="form-textarea-main"></textarea>
                                 </dd>
                             </dl>
 
