@@ -124,12 +124,63 @@
 
                             <dl class="formItem">
                                 <dt class="form-subject">
-                                    <span class="form-name">ご来店 第1希望 【日時】</span>
+                                    <span class="form-name">ご来店 第1希望【場所】</span>
                                     <span class="form-rabel">必須</span>
                                 </dt>   
                                 <dd class="form-detail-area">
                                     <div class="form-error-text"></div>
-                                    <input type="text" id="name1" name="name1" class="detail-text" placeholder="カレンダーよりご入力ください" value>
+                                    <div class="form-radio-area">
+                                        <div class="form-radio-content">
+                                            <input type="radio" id="name1" name="name1" class="radio-btn" value="ご来店">
+                                            <label for="" class="radio-text1">ご来店</label>
+                                        </div>
+                                        <div class="form-radio-content">
+                                            <input type="radio" id="name1" name="name1" class="radio-btn" value="訪問">
+                                            <label for="" class="radio-text2">訪問</label>
+                                        </div>
+                                    </div>
+                                </dd>
+                            </dl>
+
+                            <dl class="formItem">
+                                <dt class="form-subject">
+                                    <span class="form-name">ご面談 第1希望 【日時】</span>
+                                    <span class="form-rabel">必須</span>
+                                </dt>   
+                                <dd class="form-detail-area">
+                                    <div class="form-error-text"></div>
+                                    <input type="date" id="name1" name="name1" class="detail-text" placeholder="カレンダーよりご入力ください" value>
+                                </dd>
+                            </dl>
+
+                            <dl class="formItem">
+                                <dt class="form-subject">
+                                    <span class="form-name">ご来店 第2希望【場所】</span>
+                                    <span class="form-rabel">必須</span>
+                                </dt>   
+                                <dd class="form-detail-area">
+                                    <div class="form-error-text"></div>
+                                    <div class="form-radio-area">
+                                        <div class="form-radio-content">
+                                            <input type="radio" id="name1" name="name1" class="radio-btn" value="ご来店">
+                                            <label for="" class="radio-text1">ご来店</label>
+                                        </div>
+                                        <div class="form-radio-content">
+                                            <input type="radio" id="name1" name="name1" class="radio-btn" value="訪問">
+                                            <label for="" class="radio-text2">訪問</label>
+                                        </div>
+                                    </div>
+                                </dd>
+                            </dl>
+
+                            <dl class="formItem">
+                                <dt class="form-subject">
+                                    <span class="form-name">ご面談 第2希望 【日時】</span>
+                                    <span class="form-rabel">必須</span>
+                                </dt>   
+                                <dd class="form-detail-area">
+                                    <div class="form-error-text"></div>
+                                    <input type="date" id="name1" name="name1" class="detail-text" placeholder="カレンダーよりご入力ください" value>
                                 </dd>
                             </dl>
 

@@ -63,6 +63,7 @@
 
 .form-detail-area input {
     cursor: pointer;
+    color: #a9a9a9;
 }
 
 .form-textarea-main {
@@ -72,8 +73,31 @@
     resize: none;
 }
 
+.form-radio-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.radio-btn {
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-right: 0.5rem;
+}
+
+.radio-text1 {
+    margin-right: 3rem;
+}
+
 .mail-note {
     margin-top: 0.8rem;
+}
+
+.note-text {
+    line-height: 2;
 }
 
 .check-submit {
