@@ -45,3 +45,31 @@
     color: rgba(41, 41, 41, 1);
     font-family: 'Noto Sans JP', sans-serif;
 }
+
+
+/* スライダー */
+.menu-slider {
+    margin: 100px auto;
+    width: 80%;
+}
+
+.menu-slider img {
+    height: auto;
+    width: 100%;
+}
+
+/*slick setting*/
+.slick-prev:before,
+.slick-next:before {
+    color: #000;
+}
+
+.slick-prev {
+    border-left: 2px rgba(0, 60, 51, 1) solid;
+    transform: translate(0, -50%) rotateZ(-45deg);
+}
+
+.slick-arrow {
+    border-top: 2px rgba(0, 60, 51, 1) solid;
+    z-index: 250;
+}

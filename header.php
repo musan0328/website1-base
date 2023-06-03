@@ -12,12 +12,17 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/shop.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/contact.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/menu-detail.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/jquery.bxslider.min.css">
+    <!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/jquery.bxslider.min.css"> -->
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/onigiri_tenmusu.png">
+    <!-- Slick 読み込み -->
+    <link href="<?php echo get_template_directory_uri(); ?>/js/slick-theme.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo get_template_directory_uri(); ?>/js/slick.css" rel="stylesheet" type="text/css">
     <!-- JavaScript読み込み -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/slick.min.js"></script>
     <!-- bxslider読み込み -->
-    <script src="jquery.bxslider.min.js"></script>
+    <!-- <script src="jquery.bxslider.min.js"></script> -->
     <script src="<?php echo get_template_directory_uri(); ?>/js/main.js" type="text/javaScript" charset="utf-8"></script>
     <title>おにぎりや</title>
 </head>

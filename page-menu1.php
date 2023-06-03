@@ -36,12 +36,40 @@
         <div class="menu-detail-image-area">
             <div class="menu-detail-images">
                 <div class="menu-detail-con-img">
-                    <ul class="menu-con-imgpa">
+                    <ul class="menu-slider">
                         <li class="menu-con-imgch">
                             <img src="<?php echo get_template_directory_uri(); ?>/images/sample1.jpg" alt="サンプル画像" class="menu-detail-sample-img">
-                            <p class="menu-co-textarea">テキストが入ります。テキストが入ります。</p>
                         </li>
+                        <li class="menu-con-imgch">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/sample2.jpg" alt="サンプル画像" class="menu-detail-sample-img">
+                        </li>
+                        <li class="menu-con-imgch">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/sample3.jpg" alt="サンプル画像" class="menu-detail-sample-img">
+                        </li>
+                        <li class="menu-con-imgch">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/sample4.jpg" alt="サンプル画像" class="menu-detail-sample-img">
+                        </li>
+                        <li class="menu-con-imgch">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/sample5.jpg" alt="サンプル画像" class="menu-detail-sample-img">
+                        </li>
+                        <p class="menu-co-textarea">テキストが入ります。テキストが入ります。</p>
                     </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-detail-text-area">
+            <div class="menu-detail-text-content">
+                <div class="menu-detail-con-pe">
+                    <p class="menu-con-ptext">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                    テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                    </p>
+                    <p class="menu-con-ptext">
+                    テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                    テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                    テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                    テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                    </p>
                 </div>
             </div>
         </div>
@@ -49,3 +77,14 @@
 </main>
 
 <?php get_footer(); ?>
+
+<script>
+    // スライダー
+    $('.menu-slider').slick({
+        autoplay:true,
+        autoplaySpeed:5000,
+        dots:true,
+    });
+
+    console.log('aaa');
+</script>
