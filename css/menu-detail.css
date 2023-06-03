@@ -12,3 +12,36 @@
     width: 6px;
     margin-left: 1rem;
 }
+
+.menu-detail-main {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.menu-detail-parent {
+    position: relative;
+}
+
+.menu-text-detail-con {
+    line-height: 1.15;
+}
+
+.menu-text-detail-con:before {
+    background-color: rgba(112, 112, 112, 1);
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 1px;
+    left: -2rem;
+    position: absolute;
+    top: 0.5rem;
+    transform: translateY(-50%);
+}
+
+.menu-detail-con2 {
+    font-size: 2rem;
+    line-height: 1.75;
+    margin-top: 2rem;
+    color: rgba(41, 41, 41, 1);
+    font-family: 'Noto Sans JP', sans-serif;
+}

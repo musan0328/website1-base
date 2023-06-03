@@ -32,6 +32,19 @@
                 </div>
             </div>
         </div>
+
+        <div class="menu-detail-image-area">
+            <div class="menu-detail-images">
+                <div class="menu-detail-con-img">
+                    <ul class="menu-con-imgpa">
+                        <li class="menu-con-imgch">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/sample1.jpg" alt="サンプル画像" class="menu-detail-sample-img">
+                            <p class="menu-co-textarea">テキストが入ります。テキストが入ります。</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </main>
 
