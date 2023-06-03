@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/news.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/shop.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/contact.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/menu-detail.css">
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/onigiri_tenmusu.png">
     <!-- JavaScript読み込み -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

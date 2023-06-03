@@ -1,0 +1,14 @@
+.about-top-link-sub2 {
+    margin-left: 1rem;
+}
+
+.about-top-link-sub:after {
+    border-right: 2px rgba(0, 60, 51, 1) solid;
+    border-top: 2px rgba(0, 60, 51, 1) solid;
+    content: "";
+    display: inline-block;
+    height: 6px;
+    transform: translateY(-50%) rotateZ(45deg);
+    width: 6px;
+    margin-left: 1rem;
+}
