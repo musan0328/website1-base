@@ -26,7 +26,7 @@
                 <div class="menupage-main-area">
                     <div class="menu-detail">
                             <div class="menu-detail-item">
-                                <a href="#" class="menupage-link">
+                                <a href="<?php echo home_url('menu1'); ?>" class="menupage-link">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img1.jpg" alt="メニュー1" class="menupage-item">
                                 </a>
                             </div>
@@ -37,7 +37,7 @@
                     </div>
                     <div class="menu-detail">
                             <div class="menu-detail-item">
-                                <a href="#" class="menupage-link">
+                                <a href="<?php echo home_url('menu2'); ?>" class="menupage-link">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img2.jpg" alt="メニュー2" class="menupage-item">
                                 </a>
                             </div>
@@ -48,7 +48,7 @@
                     </div>
                     <div class="menu-detail">
                             <div class="menu-detail-item">
-                                <a href="#" class="menupage-link">
+                                <a href="<?php echo home_url('menu3'); ?>" class="menupage-link">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img3.jpg" alt="メニュー3" class="menupage-item">
                                 </a>
                             </div>
@@ -59,7 +59,7 @@
                     </div>
                     <div class="menu-detail">
                             <div class="menu-detail-item">
-                                <a href="#" class="menupage-link">
+                                <a href="<?php echo home_url('menu4'); ?>" class="menupage-link">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img4.jpg" alt="メニュー4" class="menupage-item">
                                 </a>
                             </div>
@@ -70,7 +70,7 @@
                     </div>
                     <div class="menu-detail">
                             <div class="menu-detail-item">
-                                <a href="#" class="menupage-link">
+                                <a href="<?php echo home_url('menu5'); ?>" class="menupage-link">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img5.jpg" alt="メニュー5" class="menupage-item">
                                 </a>
                             </div>
@@ -81,7 +81,7 @@
                     </div>
                     <div class="menu-detail">
                             <div class="menu-detail-item">
-                                <a href="#" class="menupage-link">
+                                <a href="<?php echo home_url('menu6'); ?>" class="menupage-link">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img6.jpg" alt="メニュー6" class="menupage-item">
                                 </a>
                             </div>
@@ -92,7 +92,7 @@
                     </div>
                     <div class="menu-detail">
                             <div class="menu-detail-item">
-                                <a href="#" class="menupage-link">
+                                <a href="<?php echo home_url('menu7'); ?>" class="menupage-link">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img7.jpg" alt="メニュー7" class="menupage-item">
                                 </a>
                             </div>
@@ -103,7 +103,7 @@
                     </div>
                     <div class="menu-detail">
                             <div class="menu-detail-item">
-                                <a href="#" class="menupage-link">
+                                <a href="<?php echo home_url('menu8'); ?>" class="menupage-link">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img8.jpg" alt="メニュー8" class="menupage-item">
                                 </a>
                             </div>
@@ -114,7 +114,7 @@
                     </div>
                     <div class="menu-detail">
                             <div class="menu-detail-item">
-                                <a href="#" class="menupage-link">
+                                <a href="<?php echo home_url('menu9'); ?>" class="menupage-link">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img9.jpg" alt="メニュー9" class="menupage-item">
                                 </a>
                             </div>
@@ -125,7 +125,7 @@
                     </div>
                     <div class="menu-detail">
                             <div class="menu-detail-item">
-                                <a href="#" class="menupage-link">
+                                <a href="<?php echo home_url('menu10'); ?>" class="menupage-link">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img10.jpg" alt="メニュー10" class="menupage-item">
                                 </a>
                             </div>
@@ -136,7 +136,7 @@
                     </div>
                     <div class="menu-detail">
                             <div class="menu-detail-item">
-                                <a href="#" class="menupage-link">
+                                <a href="<?php echo home_url('menu11'); ?>" class="menupage-link">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img11.jpg" alt="メニュー11" class="menupage-item">
                                 </a>
                             </div>
@@ -147,7 +147,7 @@
                     </div>
                     <div class="menu-detail">
                             <div class="menu-detail-item">
-                                <a href="#" class="menupage-link">
+                                <a href="<?php echo home_url('menu12'); ?>" class="menupage-link">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img12.jpg" alt="メニュー12" class="menupage-item">
                                 </a>
                             </div>
