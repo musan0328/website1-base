@@ -52,7 +52,24 @@
                         <li class="menu-con-imgch">
                             <img src="<?php echo get_template_directory_uri(); ?>/images/sample5.jpg" alt="サンプル画像" class="menu-detail-sample-img">
                         </li>
+                    </ul>
                         <p class="menu-co-textarea">テキストが入ります。テキストが入ります。</p>
+                    <ul class="menu-thumb">
+                        <li class="menu-con-imgch">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/sample1.jpg" alt="サンプル画像" class="menu-detail-sample-img">
+                        </li>
+                        <li class="menu-con-imgch">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/sample2.jpg" alt="サンプル画像" class="menu-detail-sample-img">
+                        </li>
+                        <li class="menu-con-imgch">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/sample3.jpg" alt="サンプル画像" class="menu-detail-sample-img">
+                        </li>
+                        <li class="menu-con-imgch">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/sample4.jpg" alt="サンプル画像" class="menu-detail-sample-img">
+                        </li>
+                        <li class="menu-con-imgch">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/sample5.jpg" alt="サンプル画像" class="menu-detail-sample-img">
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -64,13 +81,37 @@
                     <p class="menu-con-ptext">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
                     テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
                     </p>
-                    <p class="menu-con-ptext">
+                    <p class="menu-con-ptext2">
                     テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
                     テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
                     テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
                     テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
                     </p>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-btn-main">
+        <div class="menu-btn-content-main">
+            <div class="menu-btn-linkdetail">
+                <ul class="menu-btn-linkmain">
+                    <li class="btn-linkli1"><a href="<?php echo home_url(''); ?>" class="btn-linka">前の記事へ</a></li>
+                    <li class="btn-linkli2"><a href="<?php echo home_url('menu'); ?>" class="btn-linka2">一覧へ戻る</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- お問い合わせボタン -->
+    <div class="form-main">
+        <div class="form-btn-area">
+            <div class="btn-add">
+                <a href="#" class="addBtn-Form">
+                    <div class="addBtn-Form-text">
+                        <h1 href="#" class="add-btn-text">お問い合わせ</h1>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -81,10 +122,19 @@
 <script>
     // スライダー
     $('.menu-slider').slick({
-        autoplay:true,
+        autoplay:false,
         autoplaySpeed:5000,
-        dots:true,
+        dots:false,
+        // menu-thumbクラスとリンクさせる
+        asNavFor:'.menu-thumb',
     });
+
+    $('.menu-thumb').slick({
+        //本体とサムネイルをリンクさせる
+        asNavFor:'.menu-slider',
+        //サムネイル画像をクリックして本体をスライドさせる
+        focusOnSelect: true,
+    })
 
     console.log('aaa');
 </script>

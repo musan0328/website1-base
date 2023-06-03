@@ -46,7 +46,6 @@
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-
 /* スライダー */
 .menu-slider {
     margin: 100px auto;
@@ -64,12 +63,115 @@
     color: #000;
 }
 
-.slick-prev {
+
+/* →ボタン */
+.menu-slider .slick-prev {
     border-left: 2px rgba(0, 60, 51, 1) solid;
     transform: translate(0, -50%) rotateZ(-45deg);
 }
 
-.slick-arrow {
+.menu-slider .slick-next {
+    border-right: 2px rgba(0, 60, 51, 1) solid;
+    transform: translate(0, -50%) rotateZ(45deg);
+}
+
+.menu-slider .slick-arrow {
+    height: 45px;
+    transition: all 0.3s;
+    width: 45px;
+}
+
+.menu-slider .slick-arrow {
     border-top: 2px rgba(0, 60, 51, 1) solid;
     z-index: 250;
+    margin-left: -3rem;
+    margin-right: -3rem;
+}
+
+
+.menu-co-textarea {
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: -3rem;
+}
+
+.menu-detail-con-pe {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.menu-con-ptext, .menu-con-ptext2 {
+    font-size: 0.9rem;
+    line-height: 2;
+}
+
+.menu-con-ptext2 {
+    margin-top: 3rem;
+}
+
+
+.menu-btn-main {
+    margin-top: 4rem;
+}
+
+.menu-btn-linkdetail {
+    max-width: 11rem;
+    margin: 0 auto;
+}
+
+
+.menu-btn-linkmain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn-link1 {
+    position: relative;
+}
+
+.btn-linka:before {
+    content: "";
+    display: inline-block;
+    height: 0.9rem;
+    position: relative;
+    top: 0.5rem;
+    left: -0.1rem;
+    width: 0.9rem;
+    border-left: 2px rgba(0, 60, 51, 1) solid;
+    border-top: 2px rgba(0, 60, 51, 1) solid;
+    transform: translateY(-50%) rotate(-45deg);
+}
+
+.btn-linka {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px rgba(0, 60, 51, 1) solid;
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: rgba(0, 60, 51, 1);
+    display: flex;
+    font-size: 1rem;
+    width: 8.5rem;
+    height: 3rem;
+    justify-content: center;
+    padding: 0 0 2px;
+    margin-right: 1.3rem;
+}
+
+.btn-linka2 {
+    align-items: center;
+    background-color: rgba(0, 60, 51, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: #FFF;
+    display: flex;
+    font-size: 1rem;
+    width: 9rem;
+    height: 3rem;
+    justify-content: center;
+    padding: 0 0 2px;
+    position: relative;
 }

@@ -79,13 +79,13 @@
     left: auto;
 }
 
-.slick-prev:before {
+/* .slick-prev:before {
     content: '←';
-}
+} */
 
-[dir='rtl'] .slick-prev:before {
+/* [dir='rtl'] .slick-prev:before {
     content: '→';
-}
+} */
 
 .slick-next {
     right: -25px;
@@ -96,13 +96,13 @@
     left: -25px;
 }
 
-.slick-next:before {
+/* .slick-next:before {
     content: '→';
 }
 
 [dir='rtl'] .slick-next:before {
     content: '←';
-}
+} */
 
 /* Dots */
 .slick-dotted.slick-slider {
@@ -167,7 +167,7 @@
 
 .slick-dots li button:before {
     font-family: 'slick';
-    font-size: 6px;
+    font-size: 4rem;
     line-height: 20px;
 
     position: absolute;
