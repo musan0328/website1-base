@@ -99,7 +99,7 @@
                 </div>
                 <div class="contact-main-area">
                     <div class="contact-area">
-                            <a href="#" class="contact-link">
+                            <a href="<?php echo home_url('contact'); ?>" class="contact-link">
                                 <div class="contact-title">
                                     <span class="contact-icon"></span>
                                         <p class="contact-text">
