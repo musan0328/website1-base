@@ -122,7 +122,21 @@
     margin-top: 3rem;
 }
 
+
 .result-button {
+    background-color: rgba(0, 60, 51, 1);
+    border: 1px rgba(0, 60, 51, 1) solid;
+    width: 14rem;
+    height: 3rem;
+    border-radius: 30px;
+    text-align: center;
+    color: #FFF;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+}
+
+.result-button:disabled {
     background-color: rgba(188, 188, 188, 1);
     border: 1px rgba(188, 188, 188, 1) solid;
     width: 14rem;
@@ -131,6 +145,26 @@
     text-align: center;
     color: #FFF;
     line-height: 1;
+    cursor: pointer;
+    position: relative;
+}
+
+.result-button:hover {
+    opacity: 0.8;
+    transition: 1s;
+}
+
+.result-button:after {
+    border-top: 2px rgba(255, 255, 255, 1) solid;
+    border-right: 2px rgba(255, 255, 255, 1) solid;
+    content: "";
+    display: inline-block;
+    height: 6px;
+    left: calc(100% - 28px);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotateZ(45deg);
+    width: 6px;
 }
 
 @media screen and (max-width: 920px) {
