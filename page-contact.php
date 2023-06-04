@@ -28,11 +28,12 @@
                 <div class="form-main-area">
                     <p class="form-title-text">以下のフォームに必要事項をご記入の上、送信ボタンをクリックしてください。</p>
                     <div class="form-area-con">
-                        <form action="#" method="post">
+                        <form action="#" method="post" id="form">
                             <dl class="formItem"> 
                                 <dt class="form-subject">
-                                    <span class="form-name">お名前</span>
+                                    <span class="form-name" name="name">お名前</span>
                                     <span class="form-rabel">必須</span>
+                                    <p class="is-error-name"></p>
                                 </dt>   
                                 <dd class="form-detail-area">
                                     <div class="form-error-text"></div>
@@ -42,8 +43,9 @@
 
                             <dl class="formItem"> 
                                 <dt class="form-subject">
-                                    <span class="form-name">お名前(フリガナ)</span>
+                                    <span class="form-name" name="name_kana">お名前(フリガナ)</span>
                                     <span class="form-rabel">必須</span>
+                                    <p class="is-error-name"></p>
                                 </dt>   
                                 <dd class="form-detail-area">
                                     <div class="form-error-text"></div>
@@ -55,6 +57,7 @@
                                 <dt class="form-subject">
                                     <span class="form-name">郵便番号</span>
                                     <span class="form-rabel">必須</span>
+                                    <p class="is-error-name"></p>
                                 </dt>   
                                 <dd class="form-detail-area">
                                     <div class="form-error-text"></div>
@@ -67,6 +70,7 @@
                                 <dt class="form-subject">
                                     <span class="form-name">現住所</span>
                                     <span class="form-rabel">必須</span>
+                                    <p class="is-error-name"></p>
                                 </dt>   
                                 <dd class="form-detail-area">
                                     <div class="form-error-text"></div>
@@ -88,6 +92,7 @@
                                 <dt class="form-subject">
                                     <span class="form-name">電話番号</span>
                                     <span class="form-rabel">必須</span>
+                                    <p class="is-error-name"></p>
                                 </dt>   
                                 <dd class="form-detail-area">
                                     <div class="form-error-text"></div>
@@ -99,6 +104,7 @@
                                 <dt class="form-subject">
                                     <span class="form-name">メールアドレス</span>
                                     <span class="form-rabel">必須</span>
+                                    <p class="is-error-name"></p>
                                 </dt>   
                                 <dd class="form-detail-area">
                                     <div class="form-error-text"></div>
@@ -115,6 +121,7 @@
                                 <dt class="form-subject">
                                     <span class="form-name">メールアドレス(確認用)</span>
                                     <span class="form-rabel">必須</span>
+                                    <p class="is-error-name"></p>
                                 </dt>   
                                 <dd class="form-detail-area">
                                     <div class="form-error-text"></div>
@@ -126,6 +133,7 @@
                                 <dt class="form-subject">
                                     <span class="form-name">ご来店 第1希望【場所】</span>
                                     <span class="form-rabel">必須</span>
+                                    <p class="is-error-name"></p>
                                 </dt>   
                                 <dd class="form-detail-area">
                                     <div class="form-error-text"></div>
@@ -146,6 +154,7 @@
                                 <dt class="form-subject">
                                     <span class="form-name">ご面談 第1希望 【日時】</span>
                                     <span class="form-rabel">必須</span>
+                                    <p class="is-error-name"></p>
                                 </dt>   
                                 <dd class="form-detail-area">
                                     <div class="form-error-text"></div>
@@ -157,6 +166,7 @@
                                 <dt class="form-subject">
                                     <span class="form-name">ご来店 第2希望【場所】</span>
                                     <span class="form-rabel">必須</span>
+                                    <p class="is-error-name"></p>
                                 </dt>   
                                 <dd class="form-detail-area">
                                     <div class="form-error-text"></div>
@@ -177,6 +187,7 @@
                                 <dt class="form-subject">
                                     <span class="form-name">ご面談 第2希望 【日時】</span>
                                     <span class="form-rabel">必須</span>
+                                    <p class="is-error-name"></p>
                                 </dt>   
                                 <dd class="form-detail-area">
                                     <div class="form-error-text"></div>
@@ -188,6 +199,7 @@
                                 <dt class="form-subject">
                                     <span class="form-name">ご相談内容</span>
                                     <span class="form-rabel">必須</span>
+                                    <p class="is-error-name"></p>
                                 </dt>
                                 <dd class="form-detail-area">
                                     <div class="form-error-text"></div>
@@ -199,6 +211,7 @@
                                 <dt class="form-subject">
                                     <span class="form-name">個人情報の取り扱いについて</span>
                                     <span class="form-rabel">必須</span>
+                                    <p class="is-error-name"></p>
                                 </dt>
                                 <dd class="form-detail-area">
                                    <input type="checkbox" id="ch-submit" class="check-submit">
@@ -206,10 +219,47 @@
                                 </dd>
                             </dl>
                         </form>
+
+                        <div class="form-button-main">
+                            <div class="form-button-area">
+                                <button class="result-button">
+                                    <span class="result-btn-text">入力内容のご確認</span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
 </main>
+
+
+<script>
+
+// バリデーションチェック
+$('#form').validate({
+
+    rules: {
+        name: {
+            required: true,
+        },
+
+        kana_name: {
+            required: true,
+        },
+    },
+
+    //エラーメッセージ
+    messages: {
+        name: {
+            required: '名前を入力してください',
+        },
+
+        kana_name {
+            required: '名前(フリガナ)を入力してください',
+        }
+    }
+});
+</script>
 
 <?php get_footer(); ?>

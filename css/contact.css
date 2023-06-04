@@ -112,6 +112,27 @@
     box-sizing: border-box;
 }
 
+.form-button-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form-button-area {
+    margin-top: 3rem;
+}
+
+.result-button {
+    background-color: rgba(188, 188, 188, 1);
+    border: 1px rgba(188, 188, 188, 1) solid;
+    width: 14rem;
+    height: 3rem;
+    border-radius: 30px;
+    text-align: center;
+    color: #FFF;
+    line-height: 1;
+}
+
 @media screen and (max-width: 920px) {
 
     .formItem {
