@@ -64,6 +64,11 @@
 }
 
 
+.slick-track {
+    width: 450px;
+}
+
+
 /* →ボタン */
 .menu-slider .slick-prev {
     border-left: 2px rgba(0, 60, 51, 1) solid;
