@@ -283,6 +283,10 @@
     .form-textarea-main {
         width: 21rem;
     }
+
+    .result-button {
+        height: 4rem;
+    }
 }
 
 @media screen and (max-width: 375px) {
