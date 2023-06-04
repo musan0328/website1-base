@@ -255,10 +255,19 @@ $('#form').validate({
             required: '名前を入力してください',
         },
 
-        kana_name {
+        kana_name: {
             required: '名前(フリガナ)を入力してください',
         }
     }
+
+    // エラーメッセージ出力箇所
+    errorPlacement: function(error, element){
+        var name = element.attr('name');
+        error.appendTo($('.is-error-'+name));
+    },
+ 
+    errorElement: "span",
+    errorClass: "is-error",
 });
 </script>
 

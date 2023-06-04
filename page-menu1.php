@@ -134,6 +134,8 @@
         asNavFor:'.menu-slider',
         //サムネイル画像をクリックして本体をスライドさせる
         focusOnSelect: true,
+        //一度に表示するスライド
+        slidesToShow:4,
     })
 
     console.log('aaa');
