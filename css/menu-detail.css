@@ -175,3 +175,40 @@
     padding: 0 0 2px;
     position: relative;
 }
+
+
+@media screen and (max-width: 420px) {
+    .menu-detail-main {
+        max-width: 370px;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+
+    .menu-detail-main {
+        max-width: 310px;
+        margin: 0 auto;
+    }
+
+    .menu-text-detail-con:before {
+        width: 20px;
+        height: 1px;
+        left: -1.5rem;
+    }
+}
+
+
+@media screen and (max-width: 280px) {
+
+    .list-link-about {
+        width: 280px;
+    }
+
+    .menu-detail-main {
+        max-width: 250px;
+        margin: 0 auto;
+    }
+
+}
