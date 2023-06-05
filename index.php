@@ -66,6 +66,17 @@
                         </div>
                     </div>
     <!-- NEWSエリア  -->
+    <?php
+        //参考サイト https://ecco.co.jp/blog/wp_query/
+        // 固定ページに特定のカテゴリーを表示
+        $args = array(
+            'post_type' => 'post',
+            'category_name' => 'news',
+            'posts_per_page' => 6
+        );
+        $the_query = new WP_Query( $args );
+        if ( $the_query->have_posts() ) :
+    ?>
     <div class="topNewsArea">
         <div class="NewsGroup">
             <div class="NewsArea">
@@ -74,38 +85,39 @@
             </div>
             <div class="NewsContent">
                 <div class="news">
-                        <a href="#" class="news-link">
+                        <a href="<?php echo get_permalink(); ?>" class="news-link">
                             <div class="news-area">
-                                    <p class="news-day">2023.05.01</dt>
-                                    <p class="news-title">新しいメニューができました。</dt>
+                                    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                                    <p class="news-day"><?php the_date(); ?></p>
+                                    <p class="news-title"><?php the_title(); ?></p>
                             </div>
                         </a>
+                        <?php endwhile; ?>
                 </div>
                 <div class="news">
-                    <a href="#" class="news-link">
-                        <div class="news-area">
-                                <p class="news-day">2023.04.10</dt>
-                                <p class="news-title">花見に行きました。</dt>
-                        </div>
-                    </a>
+                        <a href="<?php echo get_permalink(); ?>" class="news-link">
+                            <div class="news-area">
+                                    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                                    <p class="news-day"><?php the_date(); ?></p>
+                                    <p class="news-title"><?php the_title(); ?></p>
+                            </div>
+                        </a>
+                        <?php endwhile; ?>
                 </div>
                 <div class="news">
-                    <a href="#" class="news-link">
-                        <div class="news-area">
-                                <p class="news-day">2023.01.01</dt>
-                                <p class="news-title">2023年もよろしくお願いします。</dt>
-                        </div>
-                    </a>
+                        <a href="<?php echo get_permalink(); ?>" class="news-link">
+                            <div class="news-area">
+                                    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                                    <p class="news-day"><?php the_date(); ?></p>
+                                    <p class="news-title"><?php the_title(); ?></p>
+                            </div>
+                        </a>
+                        <?php endwhile; ?>
                 </div>
-                <div class="news">
-                    <a href="#" class="news-link">
-                        <div class="news-area">
-                                <p class="news-day">2022.02.10</dt>
-                                <p class="news-title">節分大会</dt>
-                        </div>
-                    </a>
-                </div>
+
               </div>
+              <?php else: ?>
+              <?php endif; wp_reset_postdata(); ?>
             </div>
         </div>
     <!-- Menuエリア -->
@@ -270,12 +282,5 @@
             </div>
         </div>
     </div>
-    
-    <!-- 投稿した記事を取得する -->
-    <?php if(have_posts()): while (have_posts()):the_post(); ?>
-        <li class="">
-            <a href="<?php the_permalink(); ?>" class="" title="<?php the_title(); ?>"></a>
-        </li>
-    <?php endwhile; endif; ?>
 </main>
 <?php get_footer(); ?>

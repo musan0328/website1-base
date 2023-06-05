@@ -24,14 +24,8 @@ function custom_print_scripts() {
 //JavaScript読み込み
 wp_enqueue_script('script', get_template_directory_uri() . '/js/main.js', array(), '1.0.0', true); 
 
-
-
-
-
 //アイキャッチ画像を有効化
 add_theme_support('post-thumbnails');
-
-
 
 function my_theme_setup() {
 	add_theme_support('post-thumbnails');
@@ -60,7 +54,6 @@ function create_post_type() {
     )
   );
 
-
   register_taxonomy(
     'menu-cat',
     'menu',
@@ -71,7 +64,6 @@ function create_post_type() {
       'show_in_rest' => true,
     )
   );
-
 
   register_taxonomy(
     'menu-tag',
