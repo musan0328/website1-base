@@ -31,11 +31,11 @@
                 <div class="menupage-main-area">
                     <div class="menu-detail">
                             <div class="menu-detail-item">
-                                <!-- the_permalink() ページのURLを文字列を表示 -->
-                                <a href="<?php the_permalink() ?>" class="menupage-link">
-                                <!-- アイキャッチ画像の表示 -->
-                                   <p><?php the_post_thumbnail('thumbnail'); ?></p>
-                                </a>
+                                    <!-- the_permalink() ページのURLを文字列を表示 -->
+                                    <a href="<?php the_permalink() ?>" class="menupage-link">
+                                    <!-- アイキャッチ画像の表示 -->
+                                    <p><?php the_post_thumbnail('thumbnail'); ?></p>
+                                    </a>
                             </div>
                             <div class="menu-detail-text">
                                 <!-- カスタムフィールドACFで出力 -->
