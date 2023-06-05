@@ -32,57 +32,40 @@
             </div>
     <div class="menu-detail-main">
         
-        <?php if (have_posts()) : while(have_posts()) : the_post(); ?>
-        <article <?php post_class( 'article-content' ); ?>>
-            <div class="menu-detail-area">
-                <div class="menu-detail-content">
-                    <div class="menu-detail-parent">
-                        <!-- ページタイトル -->
-                        <span class="menu-text-detail-con"><?php the_title(); ?></span>
-                        <!-- サブタイトル -->
-                        <?php
-                            //カスタムフィールドの取得
-                            $sub_title = get_field('sub_title');
-                            //カスタムフィールドの出力
-                            if($sub_title) {echo '<h2>' .$sub_title .'</h2>';} 
-                        ?>
-                        <!-- <h2 class="menu-detail-con2">味噌おにぎり</h2> -->
-                    </div>
-                </div>
-            </div>
-
-            <div class="menu-detail-image-area">
-                <div class="menu-detail-images">
-                    <div class="menu-detail-con-img">
-                        <ul class="menu-con-imgpa">
-                            <li class="menu-con-imgch">
-                            <!-- アイキャッチ画像の表示 -->
-                            <?php
-                                    if (has_post_thumbnail()) {
-                                        the_post_thumbnail();
-                                    }
+    <?php
+                if(have_posts()):
+                while(have_posts()):
+                the_post();
+            ?>
+            <div class="menu-main">
+                <div class="menupage-main-area">
+                    <div class="menu-detail">
+                            <div class="menu-detail-item">
+                                <!-- the_permalink() ページのURLを文字列を表示 -->
+                                <a href="<?php the_permalink() ?>" class="menupage-link">
+                                <!-- アイキャッチ画像の表示 -->
+                                   <p><?php the_post_thumbnail('thumbnail'); ?></p>
+                                </a>
+                            </div>
+                            <div class="menu-detail-text">
+                                <!-- カスタムフィールドACFで出力 -->
+                                <span class="menu-text1"><?php the_title(); ?></span>
+                                <!-- カスタム投稿商品情報の詳細ページで金額を表示させる例※数値フィールド -->
+                                <?php
+                                    $price = get_field('price'); //金額
                                 ?>
-                            </li>
-                        </ul>
+                                <h2 class="menu-text2"><?php echo number_format($price); ?>円</h2>
+                            </div>
                     </div>
                 </div>
             </div>
-
-            <div>
-                <div>
-                    <!-- 本文入力  -->
-                    <?php the_content(); ?>
-                </div>
-                
-            </div>
-
-        </article>
-        <?php
-            endwhile;
-            endif;
-        ?>
-        
-    </div>
+            <?php
+                endwhile;
+                else:
+            ?>
+             <?php
+                endif;
+             ?>
 </main>
 
 <?php get_footer(); ?>
