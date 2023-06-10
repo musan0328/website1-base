@@ -26,6 +26,14 @@
                 if(have_posts()):
                 while(have_posts()):
                 the_post();
+
+                $args = array(
+                    'post_type' => 'post', //投稿タイプスラッグ
+                    'category_name' => 'menu',
+                    'posts_per_page' => 6
+                 );
+                 $the_query = new WP_Query( $args );
+                 if ( $the_query->have_posts() ) :
             ?>
             <div class="menu-main">
                 <div class="menupage-main-area">
@@ -34,7 +42,7 @@
                                     <!-- the_permalink() ページのURLを文字列を表示 -->
                                     <a href="<?php the_permalink() ?>" class="menupage-link">
                                     <!-- アイキャッチ画像の表示 -->
-                                    <p><?php the_post_thumbnail('thumbnail'); ?></p>
+                                        <img src="<?php the_field('menu_img'); ?>" alt="画像投稿">
                                     </a>
                             </div>
                             <div class="menu-detail-text">
@@ -171,12 +179,11 @@
                 </div>
             </div>
             <?php
-                endwhile;
+                endwhile
                 else:
             ?>
              <?php
                 endif;
-                wp_reset_postdata()
              ?>
 </main>
 <?php get_footer(); ?>

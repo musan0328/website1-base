@@ -26,7 +26,7 @@
 //参考サイト https://ecco.co.jp/blog/wp_query/
 // 固定ページに特定のカテゴリーを表示
  $args = array(
-    'post_type' => 'post',
+    'post_type' => 'post', //投稿タイプスラッグ
     'category_name' => 'news',
     'posts_per_page' => 6
  );
@@ -40,36 +40,6 @@
                 <span class="news-subtext">新着情報</span>
             </div>
             <div class="NewsContent">
-                <div class="news">
-                        <a href="<?php echo get_permalink(); ?>" class="news-link">
-                            <div class="news-area">
-                                    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-                                    <p class="news-day"><?php the_date(); ?></p>
-                                    <p class="news-title"><?php the_title(); ?></p>
-                            </div>
-                        </a>
-                        <?php endwhile; ?>
-                </div>
-                <div class="news">
-                        <a href="<?php echo get_permalink(); ?>" class="news-link">
-                            <div class="news-area">
-                                    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-                                    <p class="news-day"><?php the_date(); ?></p>
-                                    <p class="news-title"><?php the_title(); ?></p>
-                            </div>
-                        </a>
-                        <?php endwhile; ?>
-                </div>
-                <div class="news">
-                        <a href="<?php echo get_permalink(); ?>" class="news-link">
-                            <div class="news-area">
-                                    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-                                    <p class="news-day"><?php the_date(); ?></p>
-                                    <p class="news-title"><?php the_title(); ?></p>
-                            </div>
-                        </a>
-                        <?php endwhile; ?>
-                </div>
                 <div class="news">
                         <a href="<?php echo get_permalink(); ?>" class="news-link">
                             <div class="news-area">
