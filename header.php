@@ -27,6 +27,7 @@
     <!-- <script src="jquery.bxslider.min.js"></script> -->
     <script src="<?php echo get_template_directory_uri(); ?>/js/main.js" type="text/javaScript" charset="utf-8"></script>
     <title>おにぎりや</title>
+    <?php wp_head(); ?>
 </head>
 <body>
     <header>
