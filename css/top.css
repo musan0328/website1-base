@@ -420,7 +420,11 @@ header {
     border-bottom: 1px solid rgba(217, 217, 217, 1);
 }
 
-.news:hover {
+.news-link {
+    display: block;
+}
+
+.news-link:hover {
     background-color: #EEEEEE;
     opacity: 0.8;
     transition: 1s;

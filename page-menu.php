@@ -28,13 +28,25 @@
                 the_post();
 
                 $args = array(
-                    'post_type' => 'post', //投稿タイプスラッグ
-                    'category_name' => 'menu',
+                    'post_type' => 'menu', //投稿タイプスラッグ
+                    // 'category_name' => 'menu',
                     'posts_per_page' => 6
                  );
                  $the_query = new WP_Query( $args );
                  if ( $the_query->have_posts() ) :
             ?>
+
+
+            <!-- 
+                //投稿・固定ページの情報をスラッグ名から取得する  get_page_by_path
+                $post = get_page_by_path('スラッグ' , OBJECT , 'カスタム投稿タイプ名');
+                $postID = $post->ID;
+            -->
+            <?php 
+                $post = get_page_by_path('menu' , OBJECT , 'menu');
+                $postID = $post->ID;
+            ?>
+
             <div class="menu-main">
                 <div class="menupage-main-area">
                     <div class="menu-detail">
@@ -42,15 +54,16 @@
                                     <!-- the_permalink() ページのURLを文字列を表示 -->
                                     <a href="<?php the_permalink() ?>" class="menupage-link">
                                     <!-- アイキャッチ画像の表示 -->
-                                        <img src="<?php the_field('menu_img'); ?>" alt="画像投稿">
+                                    <!-- the_field の2つ目の引数を個々のidを取得する -->
+                                        <img src="<?php the_field('menu_img', ); ?>" alt="画像投稿">
                                     </a>
                             </div>
                             <div class="menu-detail-text">
                                 <!-- カスタムフィールドACFで出力 -->
-                                <span class="menu-text1"><?php the_title(); ?></span>
+                                <span class="menu-text1"><?php the_field('menu_text'); ?></span>
                                 <!-- カスタム投稿商品情報の詳細ページで金額を表示させる例※数値フィールド -->
                                 <?php
-                                    $price = get_field('price'); //金額
+                                    $price = get_field('menu_price'); //金額
                                 ?>
                                 <h2 class="menu-text2"><?php echo number_format($price); ?>円</h2>
                             </div>
@@ -179,7 +192,8 @@
                 </div>
             </div>
             <?php
-                endwhile
+                endif;
+                endwhile;
                 else:
             ?>
              <?php

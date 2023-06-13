@@ -40,29 +40,19 @@
                 <span class="news-subtext">新着情報</span>
             </div>
             <div class="NewsContent">
-                <div class="news">
-                        <a href="<?php echo get_permalink(); ?>" class="news-link">
-                            <div class="news-area">
-                                    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-                                    <p class="news-day"><?php the_date(); ?></p>
-                                    <p class="news-title"><?php the_title(); ?></p>
-                            </div>
-                        </a>
-                        <?php endwhile; ?>
-                </div>
-                <div class="news">
-                        <a href="<?php echo get_permalink(); ?>" class="news-link">
-                            <div class="news-area">
-                                    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-                                    <p class="news-day"><?php the_date(); ?></p>
-                                    <p class="news-title"><?php the_title(); ?></p>
-                            </div>
-                        </a>
-                        <?php endwhile; ?>
-                </div>
+                    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                        <div class="news">
+                            <a href="<?php echo get_permalink(); ?>" class="news-link">
+                                <div class="news-area">   
+                                        <p class="news-day"><?php the_date(); ?></p>
+                                        <p class="news-title"><?php the_title(); ?></p>
+                                </div>
+                            </a>
+                        </div>
+                    <?php endwhile; ?>
               </div>
-            </div>
         </div>
-     <?php else: ?>
+</div>
+    <?php else: ?>
    <?php endif; wp_reset_postdata(); ?>
 <?php get_footer(); ?>
