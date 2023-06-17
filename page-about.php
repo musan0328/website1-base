@@ -190,14 +190,18 @@
                             環境に優しい <br class="pc-only">
                             お店作りをしてまいります。
                         </p>
+                        <?php if (have_posts()): ?>
+                        <?php while (have_posts()) : the_post(); ?>
                         <ul class="message-content-list">
-                            <li class="message-text-item">テキストが入ります。テキストが入ります。テキストが入ります。</li>
-                            <li class="message-text-item">テキストが入ります。テキストが入ります。テキストが入ります。</li>
-                            <li class="message-text-item">テキストが入ります。テキストが入ります。テキストが入ります。</li>
-                            <li class="message-text-item">テキストが入ります。テキストが入ります。テキストが入ります。</li>
-                            <li class="message-text-item">テキストが入ります。テキストが入ります。テキストが入ります。</li>
-                            <li class="message-text-item">テキストが入ります。テキストが入ります。テキストが入ります。</li>
+                            <li class="message-text-item"><?php the_content(); ?></li>
+                            <li class="message-text-item"><?php the_content(); ?></li>
+                            <li class="message-text-item"><?php the_content(); ?></li>
+                            <li class="message-text-item"><?php the_content(); ?></li>
+                            <li class="message-text-item"><?php the_content(); ?></li>
+                            <li class="message-text-item"><?php the_content(); ?></li>
                         </ul>
+                        <?php endwhile; ?>
+                        <?php endif; ?>
                     </div>
                     <div class="message-image">
                         <div class="message-image-area">

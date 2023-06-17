@@ -43,8 +43,11 @@
                 $postID = $post->ID;
             -->
             <?php 
-                $post = get_page_by_path('menu' , OBJECT , 'menu');
-                $postID = $post->ID;
+                $post = get_page_by_path('menu');
+                // 固定ページのカスタムフィールドの内容を表示させる
+                get_field('menu','menu')
+                // echo $page -> post_content;
+                // $postID = $post->ID;
             ?>
 
             <div class="menu-main">
