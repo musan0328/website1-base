@@ -22,31 +22,36 @@
                             </ul>
                      </div>
             </div>
-
             <?php
                 if(have_posts()):
                 while(have_posts()):
                 the_post();
 
-                if ( $the_query->have_posts() ) :
-            ?>
-
-            <?php 
                 $args = array(
-                    'post_type' => 'menu1', //投稿タイプスラッグ
-                    'category_name' => 'menu1',
+                    'post_type' => 'menu', //投稿タイプスラッグ
+                    'category_name' => 'menu',
                     'posts_per_page' => 12
                  );
+                 $the_query = new WP_Query( $args );
+                 if ( $the_query->have_posts() ) :
+            ?>
 
-                $the_query = new WP_Query( $args );
-                $post = get_page_by_path('menu1');
-                // 固定ページのカスタムフィールドの内容を取得
+
+            <!-- 
+                //投稿・固定ページの情報をスラッグ名から取得する  get_page_by_path
+                $post = get_page_by_path('スラッグ' , OBJECT , 'カスタム投稿タイプ名');
+                $postID = $post->ID;
+            -->
+            <?php 
+                $post = get_page_by_path('menu');
+                // 固定ページのカスタムフィールドの内容を表示させる
                 // get_field('フィールド名','投稿ID','フォーマットバリュー');
                 
+                echo $page -> post_content;
                 $postID = $post->ID;
             ?>
 
-            <?php echo $page -> post_content; ?>
+            <?php echo get_field('menu', 16); ?>    
 
             <div class="menu-main">
                 <div class="menupage-main-area">

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,7 +37,7 @@
                     <ul class="nav-list-sp">
                         <li class="nav-item"><a href="<?php echo home_url('top'); ?>" class="hm-link">おにぎりや</a></li>
                         <li class="nav-item"><a href="<?php echo home_url('about'); ?>" class="hm-link">こだわり</a></li>
-                        <li class="nav-item"><a href="<?php echo home_url('menu'); ?>" class="hm-link">メニュー</a></li>
+                        <li class="nav-item"><a href="<?php echo home_url('menu1'); ?>" class="hm-link">メニュー</a></li>
                         <li class="nav-item"><a href="<?php echo home_url('news'); ?>" class="hm-link">新着情報</a></li>
                         <li class="nav-item"><a href="<?php echo home_url('shop'); ?>" class="hm-link">店舗情報</a></li>
                     </ul>
@@ -93,7 +93,7 @@
                                         <ul class="inner">
                                                 <li class="inner_child"><a href="<?php echo home_url('top'); ?>" class="inner_text">おにぎりや</a></li>
                                                 <li class="inner_child"><a href="<?php echo home_url('about'); ?>" class="inner_text">こだわり</a></li>
-                                                <li class="inner_child"><a href="<?php echo home_url('menu'); ?>" class="inner_text">お品書き</a></li>
+                                                <li class="inner_child"><a href="<?php echo home_url('menu1'); ?>" class="inner_text">お品書き</a></li>
                                                 <li class="inner_child"><a href="<?php echo home_url('news'); ?>" class="inner_text">新着情報</a></li>
                                                 <li class="inner_child"><a href="<?php echo home_url('shop'); ?>" class="inner_text">店舗情報</a></li>
                                         </ul>

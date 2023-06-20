@@ -19,124 +19,186 @@
                                     <a href="#" class="about-top-link">TOP</a>
                                 </li>
                                 <li class="about-top-link-sub">お品書き</li>
-                                <li class="about-top-link-sub2">味噌おにぎり</li>
                             </ul>
                      </div>
             </div>
-    <div class="menu-detail-main">
-        <div class="menu-detail-area">
-            <div class="menu-detail-content">
-                <div class="menu-detail-parent">
-                    <span class="menu-text-detail-con">おにぎりメニュー</span>
-                    <h2 class="menu-detail-con2">味噌おにぎり</h2>
-                </div>
-            </div>
-        </div>
+     
+                <!-- カスタムフィールドの値を取得 -->
+                <?php echo get_field('menu_text', 24); ?> 
+                <?php echo get_field('menu_img', 24); ?>  
+                <?php echo get_field('menu_price', 24); ?>    
 
-        <div class="menu-detail-image-area">
-            <div class="menu-detail-images">
-                <div class="menu-detail-con-img">
-                    <ul class="menu-slider">
-                        <li class="menu-con-imgch">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/sample1.jpg" alt="サンプル画像" class="menu-detail-sample-img">
-                        </li>
-                        <li class="menu-con-imgch">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/sample2.jpg" alt="サンプル画像" class="menu-detail-sample-img">
-                        </li>
-                        <li class="menu-con-imgch">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/sample3.jpg" alt="サンプル画像" class="menu-detail-sample-img">
-                        </li>
-                        <li class="menu-con-imgch">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/sample4.jpg" alt="サンプル画像" class="menu-detail-sample-img">
-                        </li>
-                        <li class="menu-con-imgch">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/sample5.jpg" alt="サンプル画像" class="menu-detail-sample-img">
-                        </li>
-                    </ul>
-                        <p class="menu-co-textarea">テキストが入ります。テキストが入ります。</p>
-                    <ul class="menu-thumb">
-                        <li class="menu-con-imgch">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/sample1.jpg" alt="サンプル画像" class="menu-detail-sample-img">
-                        </li>
-                        <li class="menu-con-imgch">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/sample2.jpg" alt="サンプル画像" class="menu-detail-sample-img">
-                        </li>
-                        <li class="menu-con-imgch">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/sample3.jpg" alt="サンプル画像" class="menu-detail-sample-img">
-                        </li>
-                        <li class="menu-con-imgch">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/sample4.jpg" alt="サンプル画像" class="menu-detail-sample-img">
-                        </li>
-                        <li class="menu-con-imgch">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/sample5.jpg" alt="サンプル画像" class="menu-detail-sample-img">
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+                <!-- カスタム投稿の取得 -->
+                <?php
+                    if(have_posts()):
+                    while(have_posts()):
+                    the_post();
+                    
+                    //記事を取得するための条件指定
+                    $args = array(
+                        'post_type' => 'menu1', // カスタム投稿タイプ名の指定
+                        'category_name' => 'menu1', //カテゴロー名
+                        'posts_per_page' => 12
+                    );
+                    //クエリの定義
+                    $the_query = new WP_Query( $args );
+                ?>
+                <?php if ( $the_query->have_posts() ): while ( $the_query->have_posts() ): $the_query->the_post(); ?>
 
-        <div class="menu-detail-text-area">
-            <div class="menu-detail-text-content">
-                <div class="menu-detail-con-pe">
-                    <p class="menu-con-ptext">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-                    テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-                    </p>
-                    <p class="menu-con-ptext2">
-                    テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-                    テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-                    テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-                    テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
+                <?php echo get_field('menu1', 16); ?>    
 
-    <div class="menu-btn-main">
-        <div class="menu-btn-content-main">
-            <div class="menu-btn-linkdetail">
-                <ul class="menu-btn-linkmain">
-                    <li class="btn-linkli1"><a href="<?php echo home_url(''); ?>" class="btn-linka">前の記事へ</a></li>
-                    <li class="btn-linkli2"><a href="<?php echo home_url('menu'); ?>" class="btn-linka2">一覧へ戻る</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <!-- お問い合わせボタン -->
-    <div class="form-main">
-        <div class="form-btn-area">
-            <div class="btn-add">
-                <a href="#" class="addBtn-Form">
-                    <div class="addBtn-Form-text">
-                        <h1 href="#" class="add-btn-text">お問い合わせ</h1>
+            <div class="menu-main">
+                <div class="menupage-main-area">
+                    <div class="menu-detail">
+                            <div class="menu-detail-item">
+                                    <!-- the_permalink() ページのURLを文字列を表示 -->
+                                    <a href="<?php the_permalink() ?>" class="menupage-link">
+                                    <!-- アイキャッチ画像の表示 -->
+                                    <!-- the_field の2つ目の引数を個々のidを取得する -->
+                                        <img src="<?php the_field('menu_img'); ?>" alt="画像投稿">
+                                    </a>
+                            </div>
+                            <div class="menu-detail-text">
+                                <!-- カスタムフィールドACFで出力 -->
+                                <span class="menu-text1"><?php the_field('menu_text'); ?></span>
+                                <!-- カスタム投稿商品情報の詳細ページで金額を表示させる例※数値フィールド -->
+                                <?php
+                                    $price = get_field('menu_price'); //金額
+                                ?>
+                                <h2 class="menu-text2"><?php echo number_format($price); ?>円</h2>
+                            </div>
                     </div>
-                </a>
+                    <div class="menu-detail">
+                            <div class="menu-detail-item">
+                                <a href="<?php the_permalink() ?>" class="menupage-link">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img2.jpg" alt="メニュー2" class="menupage-item">
+                                </a>
+                            </div>
+                            <div class="menu-detail-text">
+                                <span class="menu-text1">天むす</span>
+                                <h2 class="menu-text2">600円</h2>
+                            </div>
+                    </div>
+                    <div class="menu-detail">
+                            <div class="menu-detail-item">
+                                <a href="<?php the_permalink() ?>" class="menupage-link">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img3.jpg" alt="メニュー3" class="menupage-item">
+                                </a>
+                            </div>
+                            <div class="menu-detail-text">
+                                <span class="menu-text1">豆おにぎり</span>
+                                <h2 class="menu-text2">350円</h2>
+                            </div>
+                    </div>
+                    <div class="menu-detail">
+                            <div class="menu-detail-item">
+                                <a href="<?php the_permalink() ?>" class="menupage-link">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img4.jpg" alt="メニュー4" class="menupage-item">
+                                </a>
+                            </div>
+                            <div class="menu-detail-text">
+                                <span class="menu-text1">焼きおにぎり</span>
+                                <h2 class="menu-text2">400円</h2>
+                            </div>
+                    </div>
+                    <div class="menu-detail">
+                            <div class="menu-detail-item">
+                                <a href="<?php the_permalink() ?>" class="menupage-link">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img5.jpg" alt="メニュー5" class="menupage-item">
+                                </a>
+                            </div>
+                            <div class="menu-detail-text">
+                                <span class="menu-text1">明太子茶漬け</span>
+                                <h2 class="menu-text2">450円</h2>
+                            </div>
+                    </div>
+                    <div class="menu-detail">
+                            <div class="menu-detail-item">
+                                <a href="<?php the_permalink() ?>" class="menupage-link">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img6.jpg" alt="メニュー6" class="menupage-item">
+                                </a>
+                            </div>
+                            <div class="menu-detail-text">
+                                <span class="menu-text1">お味噌汁</span>
+                                <h2 class="menu-text2">300円</h2>
+                            </div>
+                    </div>
+                    <div class="menu-detail">
+                            <div class="menu-detail-item">
+                                <a href="<?php the_permalink() ?>" class="menupage-link">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img7.jpg" alt="メニュー7" class="menupage-item">
+                                </a>
+                            </div>
+                            <div class="menu-detail-text">
+                                <span class="menu-text1">サワラ焼き定食</span>
+                                <h2 class="menu-text2">750円</h2>
+                            </div>
+                    </div>
+                    <div class="menu-detail">
+                            <div class="menu-detail-item">
+                                <a href="<?php the_permalink() ?>" class="menupage-link">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img8.jpg" alt="メニュー8" class="menupage-item">
+                                </a>
+                            </div>
+                            <div class="menu-detail-text">
+                                <span class="menu-text1">唐揚げ</span>
+                                <h2 class="menu-text2">350円</h2>
+                            </div>
+                    </div>
+                    <div class="menu-detail">
+                            <div class="menu-detail-item">
+                                <a href="<?php the_permalink() ?>" class="menupage-link">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img9.jpg" alt="メニュー9" class="menupage-item">
+                                </a>
+                            </div>
+                            <div class="menu-detail-text">
+                                <span class="menu-text1">コロッケ</span>
+                                <h2 class="menu-text2">300円</h2>
+                            </div>
+                    </div>
+                    <div class="menu-detail">
+                            <div class="menu-detail-item">
+                                <a href="<?php the_permalink() ?>" class="menupage-link">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img10.jpg" alt="メニュー10" class="menupage-item">
+                                </a>
+                            </div>
+                            <div class="menu-detail-text">
+                                <span class="menu-text1">鯵の塩焼き</span>
+                                <h2 class="menu-text2">700円</h2>
+                            </div>
+                    </div>
+                    <div class="menu-detail">
+                            <div class="menu-detail-item">
+                                <a href="<?php the_permalink() ?>" class="menupage-link">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img11.jpg" alt="メニュー11" class="menupage-item">
+                                </a>
+                            </div>
+                            <div class="menu-detail-text">
+                                <span class="menu-text1">かぶの餡かけスープ</span>
+                                <h2 class="menu-text2">500円</h2>
+                            </div>
+                    </div>
+                    <div class="menu-detail">
+                            <div class="menu-detail-item">
+                                <a href="<<?php the_permalink() ?>" class="menupage-link">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/menu-img12.jpg" alt="メニュー12" class="menupage-item">
+                                </a>
+                            </div>
+                            <div class="menu-detail-text">
+                                <span class="menu-text1">カツカレー定食</span>
+                                <h2 class="menu-text2">900円</h2>
+                            </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
+
+            <?php endwhile; endif; wp_reset_postdata(); ?>
+            <?php
+                endwhile;
+                else:
+            ?>
+             <?php
+                endif;
+             ?>
 </main>
-
 <?php get_footer(); ?>
-
-<script>
-    // スライダー
-    $('.menu-slider').slick({
-        autoplay:false,
-        autoplaySpeed:5000,
-        dots:false,
-        // menu-thumbクラスとリンクさせる
-        asNavFor:'.menu-thumb',
-    });
-
-    $('.menu-thumb').slick({
-        //本体とサムネイルをリンクさせる
-        asNavFor:'.menu-slider',
-        //サムネイル画像をクリックして本体をスライドさせる
-        focusOnSelect: true,
-        //一度に表示するスライド
-        slidesToShow:4,
-    })
-
-    console.log('aaa');
-</script>
