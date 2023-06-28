@@ -191,15 +191,8 @@
                             お店作りをしてまいります。
                         </p>
                         <?php if (have_posts()): ?>
-                        <?php while (have_posts()) : the_post(); ?>
-                        <ul class="message-content-list">
-                            <li class="message-text-item"><?php the_content(); ?></li>
-                            <li class="message-text-item"><?php the_content(); ?></li>
-                            <li class="message-text-item"><?php the_content(); ?></li>
-                            <li class="message-text-item"><?php the_content(); ?></li>
-                            <li class="message-text-item"><?php the_content(); ?></li>
-                            <li class="message-text-item"><?php the_content(); ?></li>
-                        </ul>
+                        <?php while (have_posts()) : the_post();  ?>
+                            <?php the_content(); ?>
                         <?php endwhile; ?>
                         <?php endif; ?>
                     </div>

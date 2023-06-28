@@ -45,6 +45,12 @@
     font-family: 'Noto Serif JP', serif;
 }
 
+
+.ac-img {
+    width: 40%;
+    height: auto;
+}
+
 @media screen and (max-width: 920px) {
 
     .menupage-main-area {

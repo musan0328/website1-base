@@ -23,14 +23,6 @@
                      </div>
             </div>
 
-            <?php
-                if(have_posts()):
-                while(have_posts()):
-                the_post();
-
-                if ( $the_query->have_posts() ) :
-            ?>
-
             <?php 
                 $args = array(
                     'post_type' => 'menu1', //投稿タイプスラッグ
@@ -38,12 +30,23 @@
                     'posts_per_page' => 12
                  );
 
-                $the_query = new WP_Query( $args );
+                // $the_query = new WP_Query( $args );
+                $my_posts = get_posts($args);
+                echo count($my_posts);
+                echo "aaa";
                 $post = get_page_by_path('menu1');
                 // 固定ページのカスタムフィールドの内容を取得
                 // get_field('フィールド名','投稿ID','フォーマットバリュー');
                 
                 $postID = $post->ID;
+            ?>
+            <?php
+                if(have_posts() ):
+                // if ( $the_query->have_posts() ) :
+            ?>
+            <?php
+                while(have_posts() ):
+                    the_post();
             ?>
 
             <?php echo $page -> post_content; ?>
@@ -192,13 +195,7 @@
                     </div>
                 </div>
             </div>
-            <?php
-                endif;
-                endwhile;
-                else:
-            ?>
-             <?php
-                endif;
-             ?>
+            <?php endwhile; ?>
+            <?php endif; ?>
 </main>
 <?php get_footer(); ?>
